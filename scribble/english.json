@@ -43,6 +43,11 @@
 				"invite": "Invite"
 			}
 		},
+		"minimized": {
+			"title": "Scribble",
+			"resume": "Resume",
+			"leave": "Leave"
+		},
 		"lobbyList": {
 			"empty": "No lobbies available",
 			"createLobby": {
