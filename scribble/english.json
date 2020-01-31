@@ -4,7 +4,33 @@
 	},
 	"phrases": {
 		"chatEvents": {
-			"createdLobby": "Created lobby."
+			"createdLobby": "Created lobby.",
+			"playerJoined": ":nick: has joined.",
+			"playerLeft": ":nick: has left.",
+			"playerGuessedWord": ":nick: has guessed the word.",
+			"playerIsSelectingWord": ":nick: is now selecting a word."
+		},
+		"lobby": {
+			"topInfo": {
+				"roundCounter": "Round :cur: of :max:",
+				"paintingsLeft": ":left: painting(s) left",
+				"waiting": "Waiting for players"
+			},
+			"chatPlaceholder": "Guess a word"
+		},
+		"lobbyList": {
+			"empty": "No lobbies available",
+			"createLobby": {
+				"title": "Create a lobby",
+				"public": "Public",
+				"private": "Private",
+				"maxPlayers": "Max players",
+				"cycles": "Rounds",
+				"drawTime": "Draw time (secs)",
+				"createButton": "Create lobby"
+			},
+			"entry": {
+			}
 		}
 	},
 	"wordPacks": {
