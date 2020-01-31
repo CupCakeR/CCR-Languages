@@ -16,7 +16,32 @@
 				"paintingsLeft": ":left: painting(s) left",
 				"waiting": "Waiting for players"
 			},
-			"chatPlaceholder": "Guess a word"
+			"popup": {
+				"waiting": {
+					"waiting:": "Waiting for one more player to join"
+				},
+				"wordSelect": {
+					"isSelecting": "is selecting a word"
+				},
+				"cycleEnd": {
+					"timeLimit": "Time is up!",
+					"drawerLeft": "The drawer left the lobby",
+					"points": ":points: points"
+				}
+			},
+			"chatPlaceholder": {
+				"guess": "Guess a word",
+				"chat": "Chat"
+			},
+			"playerList": {
+				"title": "Players",
+				"points": ":points: points",
+				"drawer": "Drawer"
+			},
+			"buttons": {
+				"leaveLobby": "Leave lobby",
+				"invite": "Invite"
+			}
 		},
 		"lobbyList": {
 			"empty": "No lobbies available",
