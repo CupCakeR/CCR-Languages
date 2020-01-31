@@ -48,9 +48,9 @@
 			"resume": "Resume",
 			"leave": "Leave",
 			"roundStates": {
-				"wait": "Waiting for players",
-				"cycle": "Round ended",
-				"end": "Match ended",
+				"wait": "Waiting for a player to join",
+				"cycle": "Round has ended",
+				"end": "Match has ended",
 				"self": {
 					"word": "You have to choose a word",
 					"active": "You are drawing"
