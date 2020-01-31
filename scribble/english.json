@@ -46,7 +46,20 @@
 		"minimized": {
 			"title": "Scribble",
 			"resume": "Resume",
-			"leave": "Leave"
+			"leave": "Leave",
+			"roundStates": {
+				"wait": "Waiting for players",
+				"cycle": "Round ended",
+				"end": "Match ended",
+				"self": {
+					"word": "You have to choose a word",
+					"active": "You are drawing"
+				},
+				"other": {
+					"word": "Someone is choosing a word",
+					"active": "Someone is drawing"
+				}
+			}
 		},
 		"lobbyList": {
 			"empty": "No lobbies available",
