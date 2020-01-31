@@ -4,7 +4,7 @@
 	},
 	"phrases": {
 		"chatEvents": {
-			"created": "Created lobby."
+			"createdLobby": "Created lobby."
 		}
 	},
 	"wordPacks": {
