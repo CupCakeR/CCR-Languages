@@ -55,6 +55,7 @@
 				"createButton": "Create lobby"
 			},
 			"entry": {
+				"join": "Join"
 			}
 		}
 	},
