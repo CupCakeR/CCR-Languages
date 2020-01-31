@@ -3,7 +3,9 @@
 		"name": "English"
 	},
 	"phrases": {
-
+		"chatEvents": {
+			"created": "Created lobby."
+		}
 	},
 	"wordPacks": {
 		"default": {
