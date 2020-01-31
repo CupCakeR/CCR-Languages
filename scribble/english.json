@@ -18,7 +18,7 @@
 			},
 			"popup": {
 				"waiting": {
-					"waiting:": "Waiting for one more player to join"
+					"waiting": "Waiting for one more player to join"
 				},
 				"wordSelect": {
 					"isSelecting": "is selecting a word"
