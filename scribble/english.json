@@ -80,13 +80,31 @@
 	"wordPacks": {
 		"default": {
 			"name": "Default",
+			"description": "Random words",
 			"words": [
 				"Tree",
 				"?"
 			]
 		},
+		"brands": {
+			"name": "Brands and Logos",
+			"description": "Known companies and their products",
+			"words": [
+				"Adidas",
+				"Nike",
+				"Discord",
+				"Pepsi",
+				"Coca-Cola",
+				"Discord",
+				"Steam",
+				"Mercedes",
+				"BMW",
+				"Volkswagen"
+			]
+		},
 		"minecraft": {
 			"name": "Minecraft",
+			"description": "Words from the Minecraft universe",
 			"words": [
 				"Steve",
 				"Herobrine",
