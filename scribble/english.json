@@ -9,7 +9,8 @@
 			"playerLeft": ":nick: has left.",
 			"playerKicked": ":nick: has been kicked.",
 			"playerGuessedWord": ":nick: has guessed the word.",
-			"playerIsSelectingWord": ":nick: is now selecting a word."
+			"playerIsSelectingWord": ":nick: is now selecting a word.",
+			"playerPromoted": ":nick: is now the leader of this lobby."
 		},
 		"lobby": {
 			"topInfo": {
