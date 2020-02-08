@@ -10,7 +10,10 @@
 			"playerKicked": ":nick: has been kicked.",
 			"playerGuessedWord": ":nick: has guessed the word.",
 			"playerIsSelectingWord": ":nick: is now selecting a word.",
-			"playerPromoted": ":nick: is now the leader of this lobby."
+			"playerPromoted": ":nick: is now the leader of this lobby.",
+			"invited": ":nick: has been invited to play.",
+			"inviteDeclined": ":nick: declined the invite.",
+			"inviteTimeout": ":nick: did not answer the invite."
 		},
 		"lobby": {
 			"topInfo": {
