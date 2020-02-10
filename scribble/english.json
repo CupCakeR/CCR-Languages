@@ -78,7 +78,8 @@
 				"createButton": "Create lobby"
 			},
 			"entry": {
-				"join": "Join"
+				"join": "Join",
+				"private": "Private"
 			}
 		}
 	},
