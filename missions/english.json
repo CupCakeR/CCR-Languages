@@ -12,6 +12,11 @@
 						"discarded": "Discarded",
 						"rewarded": "Rewarded",
 						"nextRoll": "Next roll"
+					},
+					"card": {
+						"watch": "Watch mission",
+						"unwatch": "Unwatch mission",
+						"discard": "Discard mission"
 					}
 				},
 				"leaderboard": {
