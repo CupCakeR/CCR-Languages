@@ -1,0 +1,96 @@
+{
+	"info": {
+		"name": "English"
+	},
+	"phrases": {
+		"interface": {
+			"tabs": {
+				"missions": {
+					"name": "Missions",
+					"stats": {
+						"accomplished": "Accomplished",
+						"discarded": "Discarded",
+						"rewarded": "Rewarded",
+						"nextRoll": "Next roll"
+					}
+				},
+				"leaderboard": {
+					"name": "Leaderboard",
+					"stats": {
+						"accomplished": "Total accomplished",
+						"discarded": "Total discarded",
+						"rewarded": "Total rewarded"
+					},
+					"selection": {
+						"accomplished": "Accomplished",
+						"discarded": "Discarded",
+						"rewarded": "Rewarded"
+					},
+					"player": {
+						"contextMenu": {
+							"copyName": "Copy name",
+							"copySteamID": "Copy SteamID",
+							"copySteamID64": "Copy SteamID64",
+							"openProfile": "Open steam profile"
+						},
+						"value": {
+							"singular": ":count: mission",
+							"plural": ":count: missions"
+						}
+					}
+				},
+				"settings": {
+					"name": "Settings"
+				}
+			}
+		},
+		"defaultMissions": {
+			"all": {
+				"travel": {
+					"desc": "Cover a distance of :value:.",
+					"format": {
+						"singular": ":value: meter",
+						"plural": ":value: meters"
+					}
+				}
+			},
+			"ttt": {
+				"dna": {
+					"desc": "Find DNA samples of :value:.",
+					"format": {
+						"singular": ":value: player",
+						"plural": ":value: players"
+					}
+				},
+				"equipment": {
+					"desc": "Order :value: from your role's shop.",
+					"format": {
+						"singular": ":value: item",
+						"plural": ":value: items"
+					}
+				},
+				"identify": {
+					"desc": "Identify :value:.",
+					"format": {
+						"singular": ":value: body",
+						"plural": ":value: bodies"
+					}
+				},
+				"kill_positive": {
+					"desc": "Kill :value:.",
+					"format": {
+						"singular": ":value: enemy",
+						"plural": ":value: enemies"
+					}
+				},
+				"win": {
+					"desc": "Win :value:.",
+					"format": {
+						"singular": ":value: round",
+						"plural": ":value: rounds"
+					}
+				}
+			}
+		}
+	}
+}
