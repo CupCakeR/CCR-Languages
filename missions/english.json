@@ -42,7 +42,8 @@
 				"settings": {
 					"name": "Settings"
 				}
-			}
+			},
+			"noData": "Nothing more to show :("
 		},
 		"defaultMissions": {
 			"all": {
