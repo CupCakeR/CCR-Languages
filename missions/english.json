@@ -48,7 +48,8 @@
 					"name": "Settings"
 				}
 			},
-			"noData": "Nothing more to show :("
+			"endReached": "Nothing more to show :(",
+			"noData": "Empty, check back later"
 		},
 		"defaultMissions": {
 			"all": {
