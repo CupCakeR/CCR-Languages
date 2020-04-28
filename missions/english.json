@@ -45,7 +45,14 @@
 					}
 				},
 				"settings": {
-					"name": "Settings"
+					"name": "Settings",
+					"options": {
+						"enableMissionWatching": "Enable mission watching",
+						"autoWatchNewMissions": "Automatically watch new missions",
+						"onlyShowWhileHoldingTab": "Only show panel while holding down TAB",
+						"panelX": "Panel X position",
+						"panelY": "Panel Y position"
+					}
 				}
 			},
 			"endReached": "Nothing more to show :(",
