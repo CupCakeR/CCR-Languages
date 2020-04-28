@@ -165,7 +165,7 @@
 					}
 				}
 			},
-			"support": {
+			"addons": {
 				"emotes": {
 					"normal": {
 						"desc": "Use a normal emote :value:.",
