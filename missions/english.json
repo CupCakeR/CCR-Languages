@@ -53,11 +53,71 @@
 		},
 		"defaultMissions": {
 			"all": {
+				"kill": {
+					"desc": "Kill :value:.",
+					"format": {
+						"singular": ":value: player",
+						"plural": ":value: players"
+					}
+				},
+				"damage": {
+					"desc": "Deal :value: damage.",
+					"format": {
+						"singular": ":value: HP",
+						"plural": ":value: HP"
+					}
+				},
 				"travel": {
 					"desc": "Cover a distance of :value:.",
 					"format": {
 						"singular": ":value: meter",
 						"plural": ":value: meters"
+					}
+				}
+			},
+			"basewars": {
+				"buyDrug": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: drug",
+						"plural": ":value: drugs"
+					}
+				},
+				"buyEntity": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: entity",
+						"plural": ":value: entities"
+					}
+				},
+				"buyGun": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: gun",
+						"plural": ":value: guns"
+					}
+				},
+				"buyProp": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: prop",
+						"plural": ":value: props"
+					}
+				},
+				"endRaid": {
+					"desc": "Finish :value:.",
+					"format": {
+						"singular": ":value: raid",
+						"plural": ":value: raids"
+					}
+				}
+			},
+			"sandbox": {
+				"spawnProp": {
+					"desc": "Spawn :value:.",
+					"format": {
+						"singular": ":value: prop",
+						"plural": ":value: props"
 					}
 				}
 			},
@@ -102,6 +162,104 @@
 					"format": {
 						"singular": ":value: round",
 						"plural": ":value: rounds"
+					}
+				}
+			},
+			"support": {
+				"emotes": {
+					"normal": {
+						"desc": "Use a normal emote :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"hologram": {
+						"desc": "Use a hologram emote :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					}
+				},
+				"jcrafting": {
+					"craft": {
+						"desc": "Craft :value:.",
+						"format": {
+							"singular": ":value: item",
+							"plural": ":value: items"
+						}
+					}
+				},
+				"lean": {
+					"sell": {
+						"desc": "Sell lean :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"drink": {
+						"desc": "Drink :value: of lean.",
+						"format": {
+							"singular": ":value: cup",
+							"plural": ":value: cups"
+						}
+					}
+				},
+				"xenin_care_package": {
+					"flare": {
+						"desc": "Throw :value:.",
+						"format": {
+							"singular": ":value: flare",
+							"plural": ":value: flares"
+						}
+					},
+					"loot": {
+						"desc": "Loot :value:.",
+						"format": {
+							"singular": ":value: care package",
+							"plural": ":value: care packages"
+						}
+					},
+					"open": {
+						"desc": "Open :value:.",
+						"format": {
+							"singular": ":value: care package",
+							"plural": ":value: care packages"
+						}
+					}
+				},
+				"xenin_coinflip": {
+					"play": {
+						"desc": "Play coinflip :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"win": {
+						"desc": "Win a coinflip :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					}
+				},
+				"zero_genlab": {
+					"infect": {
+						"desc": "Get infected :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
+					},
+					"cure": {
+						"desc": "Get cured from an infection :value:.",
+						"format": {
+							"singular": ":value: time",
+							"plural": ":value: times"
+						}
 					}
 				}
 			}
