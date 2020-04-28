@@ -83,6 +83,13 @@
 						"plural": ":value: bodies"
 					}
 				},
+				"karma": {
+					"desc": "Play :value: without loosing karma.",
+					"format": {
+						"singular": ":value: round",
+						"plural": ":value: rounds"
+					}
+				},
 				"kill_positive": {
 					"desc": "Kill :value:.",
 					"format": {
