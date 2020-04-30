@@ -172,6 +172,50 @@
 					}
 				}
 			},
+			"darkrp": {
+				"buyAmmo": {
+					"desc": "Buy ammo :value:.",
+					"format": {
+						"singular": ":value: time",
+						"plural": ":value: times"
+					}
+				},
+				"buyDoor": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: door",
+						"plural": ":value: doors"
+					}
+				},
+				"buyEntity": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: entity",
+						"plural": ":value: entities"
+					}
+				},
+				"buyShipment": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: shipment",
+						"plural": ":value: shipments"
+					}
+				},
+				"buyWeapon": {
+					"desc": "Buy :value:.",
+					"format": {
+						"singular": ":value: weapon",
+						"plural": ":value: weapons"
+					}
+				},
+				"changeJob": {
+					"desc": "Change your job :value:.",
+					"format": {
+						"singular": ":value: time",
+						"plural": ":value: times"
+					}
+				}
+			},
 			"addons": {
 				"emotes": {
 					"normal": {
