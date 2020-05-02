@@ -208,11 +208,25 @@
 						"plural": ":value: weapons"
 					}
 				},
+				"lockpick": {
+					"desc": "Lockpick something :value:.",
+					"format": {
+						"singular": ":value: time",
+						"plural": ":value: times"
+					}
+				},
 				"changeJob": {
 					"desc": "Change your job :value:.",
 					"format": {
 						"singular": ":value: time",
 						"plural": ":value: times"
+					}
+				},
+				"arrest": {
+					"desc": "Arrest :value:.",
+					"format": {
+						"singular": ":value: player",
+						"plural": ":value: players"
 					}
 				}
 			},
