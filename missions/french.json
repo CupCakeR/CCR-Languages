@@ -1,0 +1,357 @@
+{
+	"info": {
+		"name": "French"
+	},
+	"phrases": {
+		"interface": {
+			"tabs": {
+				"missions": {
+					"name": "Missions",
+					"stats": {
+						"accomplished": "Accompli",
+						"discarded": "Rejeté",
+						"rewarded": "Récompensé",
+						"nextRoll": "Prochain tirage"
+					},
+					"card": {
+						"contextMenu": {
+							"watch": "Observer la mission",
+							"unwatch": "Désobserver la mission",
+							"discard": "Rejeter la mission"
+						},
+						"statusTypes": {
+							"accomplished": "ACCOMPLI",
+							"discarded": "REJETÉ",
+							"system": "SUPPRIMER PAR LE SYSTÈME"
+						}
+					}
+				},
+				"leaderboard": {
+					"name": "Classement",
+					"stats": {
+						"accomplished": "Total d'accompli",
+						"discarded": "Total de rejeté",
+						"rewarded": "Total de récompensé"
+					},
+					"selection": {
+						"accomplished": "Accompli",
+						"discarded": "Rejeté",
+						"rewarded": "Récompensé"
+					},
+					"player": {
+						"contextMenu": {
+							"copyName": "Copier le nom",
+							"copySteamID": "Copier le SteamID",
+							"copySteamID64": "Copier le SteamID64",
+							"openProfile": "Ouvrir le profil Steam"
+						},
+						"value": {
+							"singular": ":count: mission",
+							"plural": ":count: missions"
+						}
+					}
+				},
+				"settings": {
+					"name": "Paramètres",
+					"options": {
+						"enableMissionWatching": "Activer l'observation de missions",
+						"autoWatchNewMissions": "Observer automatiquement les nouvelles missions",
+						"onlyShowWhileHoldingTab": "Afficher le panel uniquement en maintenant TAB",
+						"panelX": "Position du panel en X",
+						"panelY": "Position du panel en Y",
+						"enablePopup": "Activer la popup \"Mission accomplie\"",
+						"popupStaytime": "Durée de la popup (en secondes)"
+					}
+				}
+			},
+			"endReached": "Rien à afficher :(",
+			"noData": "Vide, revenez plus tard"
+		},
+		"chatMessages": {
+			"active": {
+				"singular": "Vous avez :value: mission active, consultez la en utilisant :cmd:.",
+				"plural": "Vous avez :value: missions actives, consultez les en utilisant :cmd:."
+			},
+			"newRoll": "Un nouveau tirage a commencé !",
+			"newMission": "Une nouvelle mission vous a été assignée, consultez la en utilisant :cmd:."
+		},
+		"defaultMissions": {
+			"all": {
+				"kill": {
+					"desc": "Tuer :value:.",
+					"format": {
+						"singular": ":value: joueur",
+						"plural": ":value: joueurs"
+					}
+				},
+				"damage": {
+					"desc": "Faire :value: de dégâts.",
+					"format": {
+						"singular": ":value: HP",
+						"plural": ":value: HP"
+					}
+				},
+				"travel": {
+					"desc": "Parcourir une distance de :value:.",
+					"format": {
+						"singular": ":value: mètre",
+						"plural": ":value: mètres"
+					}
+				},
+				"timeAlive": {
+					"desc": "Restez en vie pendant :value:.",
+					"format": {
+						"singular": ":value: minute",
+						"plural": ":value: minutes"
+					}
+				}
+			},
+			"basewars": {
+				"buyDrug": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: drogue",
+						"plural": ":value: drogues"
+					}
+				},
+				"buyEntity": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: entité",
+						"plural": ":value: entités"
+					}
+				},
+				"buyGun": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: arme",
+						"plural": ":value: armes"
+					}
+				},
+				"buyProp": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: prop",
+						"plural": ":value: props"
+					}
+				},
+				"endRaid": {
+					"desc": "Terminer :value:.",
+					"format": {
+						"singular": ":value: raid",
+						"plural": ":value: raids"
+					}
+				}
+			},
+			"sandbox": {
+				"spawnProp": {
+					"desc": "Faire apparaître :value:.",
+					"format": {
+						"singular": ":value: prop",
+						"plural": ":value: props"
+					}
+				}
+			},
+			"ttt": {
+				"dna": {
+					"desc": "Trouver des échantillons d'ADN de :value:.",
+					"format": {
+						"singular": ":value: joueur",
+						"plural": ":value: joueurs"
+					}
+				},
+				"equipment": {
+					"desc": "Commander :value: dans la boutique de votre rôle.",
+					"format": {
+						"singular": ":value: article",
+						"plural": ":value: articles"
+					}
+				},
+				"identify": {
+					"desc": "Identifier :value:.",
+					"format": {
+						"singular": ":value: corps",
+						"plural": ":value: corps"
+					}
+				},
+				"karma": {
+					"desc": "Jouer :value: sans perdre de karma.",
+					"format": {
+						"singular": ":value: manche",
+						"plural": ":value: manches"
+					}
+				},
+				"kill_positive": {
+					"desc": "Tuer :value:.",
+					"format": {
+						"singular": ":value: ennemi",
+						"plural": ":value: ennemis"
+					}
+				},
+				"win": {
+					"desc": "Remporter :value:.",
+					"format": {
+						"singular": ":value: manche",
+						"plural": ":value: manches"
+					}
+				}
+			},
+			"darkrp": {
+				"buyAmmo": {
+					"desc": "Acheter des munitions :value:.",
+					"format": {
+						"singular": ":value: fois",
+						"plural": ":value: fois"
+					}
+				},
+				"buyDoor": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: porte",
+						"plural": ":value: portes"
+					}
+				},
+				"buyEntity": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: entité",
+						"plural": ":value: entités"
+					}
+				},
+				"buyShipment": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: caisse",
+						"plural": ":value: caisses"
+					}
+				},
+				"buyWeapon": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: arme",
+						"plural": ":value: armes"
+					}
+				},
+				"lockpick": {
+					"desc": "Crocheter quelque chose :value:.",
+					"format": {
+						"singular": ":value: fois",
+						"plural": ":value: fois"
+					}
+				},
+				"changeJob": {
+					"desc": "Changer de métier :value:.",
+					"format": {
+						"singular": ":value: fois",
+						"plural": ":value: fois"
+					}
+				},
+				"arrest": {
+					"desc": "Arrêter :value:.",
+					"format": {
+						"singular": ":value: joueur",
+						"plural": ":value: joueurs"
+					}
+				}
+			},
+			"addons": {
+				"emotes": {
+					"normal": {
+						"desc": "Utiliser une émote normale :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					},
+					"hologram": {
+						"desc": "Utiliser une émote d'hologramme :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					}
+				},
+				"jcrafting": {
+					"craft": {
+						"desc": "Fabriquer :value:.",
+						"format": {
+							"singular": ":value: objet",
+							"plural": ":value: objets"
+						}
+					}
+				},
+				"lean": {
+					"sell": {
+						"desc": "Vendre de la pression :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					},
+					"drink": {
+						"desc": "Boire :value: de pression.",
+						"format": {
+							"singular": ":value: verre",
+							"plural": ":value: verres"
+						}
+					}
+				},
+				"xenin_care_package": {
+					"flare": {
+						"desc": "Lancer :value:.",
+						"format": {
+							"singular": ":value: fusée éclairante",
+							"plural": ":value: fusées éclairantes"
+						}
+					},
+					"loot": {
+						"desc": "Piller :value:.",
+						"format": {
+							"singular": ":value: paquet de soin",
+							"plural": ":value: paquets de soin"
+						}
+					},
+					"open": {
+						"desc": "Ouvrir :value:.",
+						"format": {
+							"singular": ":value: paquet de soin",
+							"plural": ":value: paquets de soin"
+						}
+					}
+				},
+				"xenin_coinflip": {
+					"play": {
+						"desc": "Jouer à pile ou face :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					},
+					"win": {
+						"desc": "Gagner un pile ou face :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					}
+				},
+				"zero_genlab": {
+					"infect": {
+						"desc": "Être infecté :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					},
+					"cure": {
+						"desc": "Être guéri d'une infection :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					}
+				}
+			}
+		}
+	}
+}
