@@ -67,6 +67,10 @@
 			"endReached": "Nothing more to show :(",
 			"noData": "Empty, check back later"
 		},
+		"chatMessages": {
+			"newRoll": "A new roll has started!",
+			"newMission": "A new mission has been assigned to you, check it out using :cmd:."
+		},
 		"defaultMissions": {
 			"all": {
 				"kill": {
