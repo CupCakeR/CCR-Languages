@@ -97,6 +97,13 @@
 						"singular": ":value: meter",
 						"plural": ":value: meters"
 					}
+				},
+				"timeAlive": {
+					"desc": "Stay alive for :value:.",
+					"format": {
+						"singular": ":value: minute",
+						"plural": ":value: minutes"
+					}
 				}
 			},
 			"basewars": {
