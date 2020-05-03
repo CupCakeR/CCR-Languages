@@ -68,7 +68,7 @@
 			"noData": "Empty, check back later"
 		},
 		"chatMessages": {
-			"active": "You have :value: active missions, next roll starts in :time:.",
+			"active": "You have :value: active missions, check them out out using :cmd:",
 			"newRoll": "A new roll has started!",
 			"newMission": "A new mission has been assigned to you, check it out using :cmd:."
 		},
