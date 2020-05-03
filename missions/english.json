@@ -14,9 +14,16 @@
 						"nextRoll": "Next roll"
 					},
 					"card": {
-						"watch": "Watch mission",
-						"unwatch": "Unwatch mission",
-						"discard": "Discard mission"
+						"contextMenu": {
+							"watch": "Watch mission",
+							"unwatch": "Unwatch mission",
+							"discard": "Discard mission"
+						},
+						"statusTypes": {
+							"accomplished": "ACCOMPLISHED",
+							"discarded": "DISCARDED",
+							"system": "REMOVED BY SYSTEM"
+						}
 					}
 				},
 				"leaderboard": {
