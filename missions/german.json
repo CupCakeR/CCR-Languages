@@ -1,0 +1,357 @@
+{
+	"info": {
+		"name": "German"
+	},
+	"phrases": {
+		"interface": {
+			"tabs": {
+				"missions": {
+					"name": "Missionen",
+					"stats": {
+						"accomplished": "Abgeschlossen",
+						"discarded": "Abgebrochen",
+						"rewarded": "Belohnung",
+						"nextRoll": "Nächste Auslosung"
+					},
+					"card": {
+						"contextMenu": {
+							"watch": "Mission verfolgen",
+							"unwatch": "Nicht mehr verfolgen",
+							"discard": "Mission abbrechen"
+						},
+						"statusTypes": {
+							"accomplished": "ABGESCHLOSSEN",
+							"discarded": "ABGEBROCHEN",
+							"system": "REMOVED BY SYSTEM"
+						}
+					}
+				},
+				"leaderboard": {
+					"name": "Bestenliste",
+					"stats": {
+						"accomplished": "Insgesamt abgeschlossen",
+						"discarded": "Insgesamt abgebrochen",
+						"rewarded": "Insgesamt belohnt"
+					},
+					"selection": {
+						"accomplished": "Abgeschlossen",
+						"discarded": "Abgebrochen",
+						"rewarded": "Belohnt"
+					},
+					"player": {
+						"contextMenu": {
+							"copyName": "Name kopieren",
+							"copySteamID": "SteamID kopieren",
+							"copySteamID64": "SteamID64 kopieren",
+							"openProfile": "Steamprofil öffnen"
+						},
+						"value": {
+							"singular": ":count: Mission",
+							"plural": ":count: Missionen"
+						}
+					}
+				},
+				"settings": {
+					"name": "Einstellungen",
+					"options": {
+						"enableMissionWatching": "Das Verfolgen von Missionen aktivieren",
+						"autoWatchNewMissions": "Neue Missionen automatisch verlogen",
+						"onlyShowWhileHoldingTab": "Panel nur anzeigen wenn TAB gedrückt ist",
+						"panelX": "Panel X Position",
+						"panelY": "Panel Y Position",
+						"enablePopup": "\"Mission abgeschlossen\" Popup aktivieren",
+						"popupStaytime": "Popup Anzeigezeit (Sekunden)"
+					}
+				}
+			},
+			"endReached": "Nichts mehr anzuzeigen :(",
+			"noData": "Leer, versuch es später noch einmal"
+		},
+		"chatMessages": {
+			"active": {
+				"singular": "Du hast :value: aktive Mission, schau sie dir unter :cmd: an.",
+				"plural": "Du hast :value: aktive Missionen, schau sie dir unter :cmd: an."
+			},
+			"newRoll": "Neue Auslosung hat begonnen!",
+			"newMission": "Du hast eine neue Mission bekommen, schau sie dir unter :cmd: an."
+		},
+		"defaultMissions": {
+			"all": {
+				"kill": {
+					"desc": "Töte :value:.",
+					"format": {
+						"singular": ":value: Spieler",
+						"plural": ":value: Spieler"
+					}
+				},
+				"damage": {
+					"desc": "Teile :value: Schaden aus.",
+					"format": {
+						"singular": ":value: HP",
+						"plural": ":value: HP"
+					}
+				},
+				"travel": {
+					"desc": "Lege eine Distanz von :value: zurück.",
+					"format": {
+						"singular": ":value: Meter",
+						"plural": ":value: Meter"
+					}
+				},
+				"timeAlive": {
+					"desc": "Bleibe für :value: am leben.",
+					"format": {
+						"singular": ":value: Minute",
+						"plural": ":value: Minuten"
+					}
+				}
+			},
+			"basewars": {
+				"buyDrug": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: Droge",
+						"plural": ":value: Drogen"
+					}
+				},
+				"buyEntity": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: entity",
+						"plural": ":value: entities"
+					}
+				},
+				"buyGun": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: Waffe",
+						"plural": ":value: Waffen"
+					}
+				},
+				"buyProp": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: Prop",
+						"plural": ":value: Props"
+					}
+				},
+				"endRaid": {
+					"desc": "Schließe :value: ab.",
+					"format": {
+						"singular": ":value: Raid",
+						"plural": ":value: Raids"
+					}
+				}
+			},
+			"sandbox": {
+				"spawnProp": {
+					"desc": "Spawn :value:.",
+					"format": {
+						"singular": ":value: Prop",
+						"plural": ":value: Props"
+					}
+				}
+			},
+			"ttt": {
+				"dna": {
+					"desc": "Finde DNA von :value:.",
+					"format": {
+						"singular": ":value: Spieler",
+						"plural": ":value: Spielern"
+					}
+				},
+				"equipment": {
+					"desc": "Kaufe :value: von deinem Rollenshop.",
+					"format": {
+						"singular": ":value: Item",
+						"plural": ":value: Items"
+					}
+				},
+				"identify": {
+					"desc": "Identifiziere :value:.",
+					"format": {
+						"singular": ":value: Leiche",
+						"plural": ":value: Leichen"
+					}
+				},
+				"karma": {
+					"desc": "Spiele :value: ohne Karma zu verlieren.",
+					"format": {
+						"singular": ":value: Runde",
+						"plural": ":value: Runden"
+					}
+				},
+				"kill_positive": {
+					"desc": "Töte :value:.",
+					"format": {
+						"singular": ":value: Gegner",
+						"plural": ":value: Gegner"
+					}
+				},
+				"win": {
+					"desc": "Gewinne :value:.",
+					"format": {
+						"singular": ":value: Runde",
+						"plural": ":value: Runden"
+					}
+				}
+			},
+			"darkrp": {
+				"buyAmmo": {
+					"desc": "Kaufe :value: Munition.",
+					"format": {
+						"singular": ":value: mal",
+						"plural": ":value: mal"
+					}
+				},
+				"buyDoor": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: Türe",
+						"plural": ":value: Türne"
+					}
+				},
+				"buyEntity": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: entity",
+						"plural": ":value: entities"
+					}
+				},
+				"buyShipment": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: shipment",
+						"plural": ":value: shipments"
+					}
+				},
+				"buyWeapon": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: Waffe",
+						"plural": ":value: Waffen"
+					}
+				},
+				"lockpick": {
+					"desc": "Knack etwas :value:.",
+					"format": {
+						"singular": ":value: mal",
+						"plural": ":value: mal"
+					}
+				},
+				"changeJob": {
+					"desc": "Ändere deinen Beruf :value:.",
+					"format": {
+						"singular": ":value: mal",
+						"plural": ":value: mal"
+					}
+				},
+				"arrest": {
+					"desc": "Verhafte :value:.",
+					"format": {
+						"singular": ":value: Spieler",
+						"plural": ":value: Spieler"
+					}
+				}
+			},
+			"addons": {
+				"emotes": {
+					"normal": {
+						"desc": "Nutze ein normales Emote :value:.",
+						"format": {
+							"singular": ":value: mal",
+							"plural": ":value: mal"
+						}
+					},
+					"hologram": {
+						"desc": "Nutze ein holografisches Emote :value:.",
+						"format": {
+							"singular": ":value: mal",
+							"plural": ":value: mal"
+						}
+					}
+				},
+				"jcrafting": {
+					"craft": {
+						"desc": "Crafte :value:.",
+						"format": {
+							"singular": ":value: Item",
+							"plural": ":value: Items"
+						}
+					}
+				},
+				"lean": {
+					"sell": {
+						"desc": "Verkaufe :value: Lean.",
+						"format": {
+							"singular": ":value: mal",
+							"plural": ":value: mal"
+						}
+					},
+					"drink": {
+						"desc": "Trinke :value: Lean.",
+						"format": {
+							"singular": ":value: Becher",
+							"plural": ":value: Becher"
+						}
+					}
+				},
+				"xenin_care_package": {
+					"flare": {
+						"desc": "Wirf :value:.",
+						"format": {
+							"singular": ":value: Signalfackel",
+							"plural": ":value: Signalfackel"
+						}
+					},
+					"loot": {
+						"desc": "Loote :value:.",
+						"format": {
+							"singular": ":value: Airdrop",
+							"plural": ":value: Airdrops"
+						}
+					},
+					"open": {
+						"desc": "Öffne :value:.",
+						"format": {
+							"singular": ":value: Airdrop",
+							"plural": ":value: Airdrops"
+						}
+					}
+				},
+				"xenin_coinflip": {
+					"play": {
+						"desc": "Spiele :value: Coinflip.",
+						"format": {
+							"singular": ":value: mal",
+							"plural": ":value: mal"
+						}
+					},
+					"win": {
+						"desc": "Gewinne im Coinflip :value:.",
+						"format": {
+							"singular": ":value: mal",
+							"plural": ":value: mal"
+						}
+					}
+				},
+				"zero_genlab": {
+					"infect": {
+						"desc": "Werde :value: infiziert.",
+						"format": {
+							"singular": ":value: mal",
+							"plural": ":value: mal"
+						}
+					},
+					"cure": {
+						"desc": "Werde :value: von einer Krankheit geheilt.",
+						"format": {
+							"singular": ":value: mal",
+							"plural": ":value: mal"
+						}
+					}
+				}
+			}
+		}
+	}
+}
