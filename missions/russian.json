@@ -1,0 +1,402 @@
+{
+	"info": {
+		"name": "Russian"
+	},
+	"phrases": {
+		"interface": {
+			"tabs": {
+				"missions": {
+					"name": "Миссии",
+					"stats": {
+						"accomplished": "Выполнено",
+						"discarded": "Отменено",
+						"rewarded": "Вознагражден",
+						"nextRoll": "Следующие миссии"
+					},
+					"card": {
+						"contextMenu": {
+							"watch": "Следить за миссией",
+							"unwatch": "Выйти из просмотра",
+							"discard": "Отмена миссии"
+						},
+						"statusTypes": {
+							"accomplished": "ВЫПОЛНЕНО",
+							"discarded": "ОТКЛОНЕНО",
+							"system": "УДАЛЕНО СИСТЕМОЙ"
+						},
+						"missed": "Пропущенно"
+					}
+				},
+				"leaderboard": {
+					"name": "Таблица лидеров",
+					"stats": {
+						"accomplished": "Всего выполнено",
+						"discarded": "Всего отменено",
+						"rewarded": "Всего вознаграждено"
+					},
+					"selection": {
+						"accomplished": "Выполнено",
+						"discarded": "Отмненено",
+						"rewarded": "Вознаграждено"
+					},
+					"player": {
+						"contextMenu": {
+							"copyName": "Скопировать имя",
+							"copySteamID": "Скопировать SteamID",
+							"copySteamID64": "Скопировать SteamID64",
+							"openProfile": "Открыть профиль"
+						},
+						"value": {
+							"singular": ":count: миссии",
+							"plural": ":count: миссий"
+						}
+					}
+				},
+				"settings": {
+					"name": "Настройки",
+					"options": {
+						"enableMissionWatching": "Включить отслеживание мисии",
+						"autoWatchNewMissions": "Автоматически отслеживать новую миссию",
+						"onlyShowWhileHoldingTab": "Only show panel while holding down TAB",
+						"panelX": "Позиция панели по Х оси",
+						"panelY": "Позиция панели по Y оси",
+						"enablePopup": "Включить \"Миссия выполнена!\" уведомление",
+						"popupStaytime": "Время действия уведомления (секунд)"
+					}
+				}
+			},
+			"endReached": "Больше нечего показать :(",
+			"noData": "Пусто, зайдите позже"
+		},
+		"chatMessages": {
+			"active": {
+				"singular": "У вас :value: активных миссий, проверьте это, используя :cmd:.",
+				"plural": "У вас :value: активных миссий, проверьте это, используя :cmd:."
+			},
+			"newRoll": "Генерация новых миссий!",
+			"newMission": "Вам была назначена новая миссия, проверьте ее, используя :cmd:."
+		},
+		"defaultMissions": {
+			"all": {
+				"kill": {
+					"desc": "Убийства :value:.",
+					"format": {
+						"singular": ":value: игрок",
+						"plural": ":value: игроков"
+					}
+				},
+				"damage": {
+					"desc": "Нанесено :value: урон.",
+					"format": {
+						"singular": ":value: HP",
+						"plural": ":value: HP"
+					}
+				},
+				"travel": {
+					"desc": "Пройдите дистанцию :value:.",
+					"format": {
+						"singular": ":value: метр",
+						"plural": ":value: метров"
+					}
+				},
+				"timeAlive": {
+					"desc": "Оставайтесь в живых около :value:.",
+					"format": {
+						"singular": ":value: минуты",
+						"plural": ":value: минут"
+					}
+				}
+			},
+			"basewars": {
+				"buyDrug": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: наркотик",
+						"plural": ":value: наркотиков"
+					}
+				},
+				"buyEntity": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: объект",
+						"plural": ":value: объектов"
+					}
+				},
+				"buyGun": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: оружие",
+						"plural": ":value: оружия"
+					}
+				},
+				"buyProp": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: проп",
+						"plural": ":value: пропов"
+					}
+				},
+				"endRaid": {
+					"desc": "Закончить :value:.",
+					"format": {
+						"singular": ":value: рейд",
+						"plural": ":value: рейдов"
+					}
+				}
+			},
+			"sandbox": {
+				"spawnProp": {
+					"desc": "Заспавнить :value:.",
+					"format": {
+						"singular": ":value: проп",
+						"plural": ":value: пропов"
+					}
+				}
+			},
+			"ttt": {
+				"dna": {
+					"desc": "Найти образцы ДНК из :value:.",
+					"format": {
+						"singular": ":value: игрока",
+						"plural": ":value: игроков"
+					}
+				},
+				"equipment": {
+					"desc": "Купить :value: из магазина вашей роли.",
+					"format": {
+						"singular": ":value: предмет",
+						"plural": ":value: предметов"
+					}
+				},
+				"identify": {
+					"desc": "Обследовать :value:.",
+					"format": {
+						"singular": ":value: тело",
+						"plural": ":value: тел"
+					}
+				},
+				"karma": {
+					"desc": "Играть :value: без потери кармы.",
+					"format": {
+						"singular": ":value: раунд",
+						"plural": ":value: раундов"
+					}
+				},
+				"kill_positive": {
+					"desc": "Убить :value:.",
+					"format": {
+						"singular": ":value: врага",
+						"plural": ":value: врагов"
+					}
+				},
+				"win": {
+					"desc": "Выиграть :value:.",
+					"format": {
+						"singular": ":value: раунд",
+						"plural": ":value: раундов"
+					}
+				}
+			},
+			"darkrp": {
+				"buyAmmo": {
+					"desc": "Купить патроны :value:.",
+					"format": {
+						"singular": ":value: раз",
+						"plural": ":value: раз"
+					}
+				},
+				"buyDoor": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: дверь",
+						"plural": ":value: двери"
+					}
+				},
+				"buyEntity": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: предмет",
+						"plural": ":value: предметов"
+					}
+				},
+				"buyShipment": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: груз",
+						"plural": ":value: груз"
+					}
+				},
+				"buyWeapon": {
+					"desc": "Купить :value:.",
+					"format": {
+						"singular": ":value: оружие",
+						"plural": ":value: оружия"
+					}
+				},
+				"lockpick": {
+					"desc": "Взломать что-нибудь :value:.",
+					"format": {
+						"singular": ":value: раз",
+						"plural": ":value: раз"
+					}
+				},
+				"changeJob": {
+					"desc": "Сменить прфессию :value:.",
+					"format": {
+						"singular": ":value: раз",
+						"plural": ":value: раз"
+					}
+				},
+				"arrest": {
+					"desc": "Арестовать :value:.",
+					"format": {
+						"singular": ":value: игрока",
+						"plural": ":value: игроков"
+					}
+				},
+				"salary": {
+					"desc": "Заработать :value:.",
+					"format": {
+						"singular": ":value: зарплату",
+						"plural": ":value: зарплат"
+					}
+				}
+			},
+			"addons": {
+				"emotes": {
+					"normal": {
+						"desc": "Использовать обычную эмоцию :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					},
+					"hologram": {
+						"desc": "Используйте эмоции голограммы :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					}
+				},
+				"jcrafting": {
+					"craft": {
+						"desc": "Скрафтить :value:.",
+						"format": {
+							"singular": ":value: вещь",
+							"plural": ":value: вещей"
+						}
+					}
+				},
+				"lean": {
+					"sell": {
+						"desc": "Продать лин :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					},
+					"drink": {
+						"desc": "Выпить :value: лина.",
+						"format": {
+							"singular": ":value: чашку",
+							"plural": ":value: чашек"
+						}
+					}
+				},
+				"xenin_care_package": {
+					"flare": {
+						"desc": "Бросить :value:.",
+						"format": {
+							"singular": ":value: сигнальную ракету",
+							"plural": ":value: сигнальные ракеты"
+						}
+					},
+					"loot": {
+						"desc": "Добыть :value:.",
+						"format": {
+							"singular": ":value: особый пакет",
+							"plural": ":value: особые пакеты"
+						}
+					},
+					"open": {
+						"desc": "Открыть :value:.",
+						"format": {
+							"singular": ":value: особый пакет",
+							"plural": ":value: особые пакеты"
+						}
+					}
+				},
+				"xenin_coinflip": {
+					"play": {
+						"desc": "Поиграть в бросок монетки :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					},
+					"win": {
+						"desc": "Выиграть в бросок монетки :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					}
+				},
+				"zero_genlab": {
+					"infect": {
+						"desc": "Заразиться :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					},
+					"cure": {
+						"desc": "Вылечитесь от инфекции :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					}
+				},
+				"mcphone": {
+					"callStart": {
+						"desc": "Позвонить :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					},
+					"callAnswer": {
+						"desc": "Ответить на звонок :value:.",
+						"format": {
+							"singular": ":value: раз",
+							"plural": ":value: раз"
+						}
+					},
+					"smsSend": {
+						"desc": "Отправить :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"smsReceive": {
+						"desc": "Получить :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"mailSend": {
+						"desc": "Отправить :value:.",
+						"format": {
+							"singular": ":value: письмо",
+							"plural": ":value: письм"
+						}
+					}
+				}
+			}
+		}
+	}
+}
