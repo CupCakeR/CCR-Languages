@@ -358,6 +358,43 @@
 							"plural": ":value: fois"
 						}
 					}
+				},
+				"mcphone": {
+					"callStart": {
+						"desc": "Commencer un appel :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					},
+					"callAnswer": {
+						"desc": "Répondre à un appel :value:.",
+						"format": {
+							"singular": ":value: fois",
+							"plural": ":value: fois"
+						}
+					},
+					"smsSend": {
+						"desc": "Envoyer :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"smsReceive": {
+						"desc": "Recevoir :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"mailSend": {
+						"desc": "Envoyer :value:.",
+						"format": {
+							"singular": ":value: mail",
+							"plural": ":value: mails"
+						}
+					}
 				}
 			}
 		}

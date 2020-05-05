@@ -358,6 +358,43 @@
 							"plural": ":value: mal"
 						}
 					}
+				},
+				"mcphone": {
+					"callStart": {
+						"desc": "Starte :value:.",
+						"format": {
+							"singular": ":value: Anruf",
+							"plural": ":value: Anrufe"
+						}
+					},
+					"callAnswer": {
+						"desc": "Nimm :value: and.",
+						"format": {
+							"singular": ":value: Anruf",
+							"plural": ":value: Anrufe"
+						}
+					},
+					"smsSend": {
+						"desc": "Schreibe :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"smsReceive": {
+						"desc": "Empfange :value:.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"mailSend": {
+						"desc": "Versende :value:.",
+						"format": {
+							"singular": ":value: Mail",
+							"plural": ":value: Mails"
+						}
+					}
 				}
 			}
 		}
