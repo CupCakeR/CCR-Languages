@@ -253,6 +253,13 @@
 						"singular": ":value: joueur",
 						"plural": ":value: joueurs"
 					}
+				},
+				"salary": {
+					"desc": "Recevez :value:.",
+					"format": {
+						"singular": ":value: de salaire total",
+						"plural": ":value: de salaire total"
+					}
 				}
 			},
 			"addons": {

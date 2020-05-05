@@ -253,6 +253,13 @@
 						"singular": ":value: Spieler",
 						"plural": ":value: Spieler"
 					}
+				},
+				"salary": {
+					"desc": "Erhalte :value:.",
+					"format": {
+						"singular": ":value: Lohn",
+						"plural": ":value: Lohn"
+					}
 				}
 			},
 			"addons": {

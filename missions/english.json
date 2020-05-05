@@ -253,6 +253,13 @@
 						"singular": ":value: player",
 						"plural": ":value: players"
 					}
+				},
+				"salary": {
+					"desc": "Receive :value:.",
+					"format": {
+						"singular": ":value: salary",
+						"plural": ":value: salary"
+					}
 				}
 			},
 			"addons": {
