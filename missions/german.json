@@ -23,7 +23,8 @@
 							"accomplished": "ABGESCHLOSSEN",
 							"discarded": "ABGEBROCHEN",
 							"system": "REMOVED BY SYSTEM"
-						}
+						},
+						"missed": "Verpasst"
 					}
 				},
 				"leaderboard": {

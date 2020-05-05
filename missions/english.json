@@ -23,7 +23,8 @@
 							"accomplished": "ACCOMPLISHED",
 							"discarded": "DISCARDED",
 							"system": "REMOVED BY SYSTEM"
-						}
+						},
+						"missed": "Missed"
 					}
 				},
 				"leaderboard": {

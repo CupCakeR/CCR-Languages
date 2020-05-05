@@ -23,7 +23,8 @@
 							"accomplished": "ACCOMPLI",
 							"discarded": "REJETÉ",
 							"system": "SUPPRIMER PAR LE SYSTÈME"
-						}
+						},
+						"missed": "Manqué"
 					}
 				},
 				"leaderboard": {
