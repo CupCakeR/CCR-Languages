@@ -1,0 +1,425 @@
+{
+	"info": {
+		"name": "Türkçe"
+	},
+	"phrases": {
+		"interface": {
+			"tabs": {
+				"missions": {
+					"name": "Görevler",
+					"stats": {
+						"accomplished": "Başarılı",
+						"discarded": "Başarısız",
+						"rewarded": "Ödüllendirildi",
+						"nextRoll": "Sonraki Oyun"
+					},
+					"card": {
+						"contextMenu": {
+							"watch": "Görevi izle",
+							"unwatch": "Görevi izlemeyi bırak",
+							"discard": "Görevi sil"
+						},
+						"statusTypes": {
+							"accomplished": "BAŞARILI",
+							"discarded": "BAŞARISIZ",
+							"system": "SİSTEM TARAFINDAN KALDIRILDI"
+						},
+						"missed": "Eksik"
+					}
+				},
+				"leaderboard": {
+					"name": "Liderler Sıralaması",
+					"stats": {
+						"accomplished": "Toplam başarılı",
+						"discarded": "Toplam başarısız",
+						"rewarded": "Toplam ödül"
+					},
+					"selection": {
+						"accomplished": "Başarılı",
+						"discarded": "Başarısız",
+						"rewarded": "Öödüllendirildi"
+					},
+					"player": {
+						"contextMenu": {
+							"copyName": "Adını kopyala",
+							"copySteamID": "SteamID'yi kopyala",
+							"copySteamID64": "SteamID64 kopyala",
+							"openProfile": "Steam Profilini aç"
+						},
+						"value": {
+							"singular": ":Sayaç: Görev",
+							"plural": ":Sayaç: Görevler"
+						}
+					}
+				},
+				"settings": {
+					"name": "Ayarlar",
+					"options": {
+						"enableMissionWatching": "Görev İzlemeyi izin ver",
+						"autoWatchNewMissions": "Yeni Görevleri otomatik olarak izle",
+						"onlyShowWhileHoldingTab": "Paneli yalnızca TAB tuşunu basılı tutarken göster",
+						"panelX": "Panel X konumu",
+						"panelY": "Panel Y konumu",
+						"enablePopup": " \"Görev tamamlandı \" pencerisini etkinleştir",
+						"popupStaytime": "Pencere kalış süresi (saniye)"
+					}
+				}
+			},
+			"endReached": "Gösterilecek başka bir şey yok :(",
+			"noData": "Boş, daha sonra tekrar kontrol et"
+		},
+		"chatMessages": {
+			"active": {
+				"singular": ":value: Aktif Görev, şunu kullanarak kontrol edin :cmd:.",
+				"plural": ":value: Aktif Görevler, şunu kullanarak kontrol edin :cmd:."
+			},
+			"newRoll": "Yeni bir oyun başladı!",
+			"newMission": "Size yeni bir görev atandı, şunu kullanarak kontrol et :cmd:."
+		},
+		"defaultMissions": {
+			"all": {
+				"kill": {
+					"desc": "Leş: :value:.",
+					"format": {
+						"singular": ":value: Oyuncu",
+						"plural": ":value: Oyuncular"
+					}
+				},
+				"damage": {
+					"desc": "Anlaşma :value: hasar.",
+					"format": {
+						"singular": ":value: CAN",
+						"plural": ":value: CAN"
+					}
+				},
+				"travel": {
+					"desc": ":value: mesafeyi katlayın.",
+					"format": {
+						"singular": ":value: Metre",
+						"plural": ":value: Metre"
+					}
+				},
+				"timeAlive": {
+					"desc": ":value: kadar hayatta kal.",
+					"format": {
+						"singular": ":value: dakika",
+						"plural": ":value: dakika"
+					}
+				}
+			},
+			"basewars": {
+				"buyDrug": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: ilaç",
+						"plural": ":value: ilaç"
+					}
+				},
+				"buyEntity": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: varlık",
+						"plural": ":value: varlıklar"
+					}
+				},
+				"buyGun": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: silah",
+						"plural": ":value: silahlar"
+					}
+				},
+				"buyProp": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: eşya",
+						"plural": ":value: eşyalar"
+					}
+				},
+				"endRaid": {
+					"desc": ":value: bitiş.",
+					"format": {
+						"singular": ":value: baskın",
+						"plural": ":value: baskınlar"
+					}
+				}
+			},
+			"sandbox": {
+				"spawnProp": {
+					"desc": ":value: çıkart.",
+					"format": {
+						"singular": ":value: eşya",
+						"plural": ":value: eşyalar"
+					}
+				}
+			},
+			"ttt": {
+				"dna": {
+					"desc": ":value: DNA örnekleri bulun.",
+					"format": {
+						"singular": ":value: oyuncu",
+						"plural": ":value: oyuncular"
+					}
+				},
+				"equipment": {
+					"desc": "Dükkandan :value: tane sipariş edin",
+					"format": {
+						"singular": ":value: madde",
+						"plural": ":value: maddeler"
+					}
+				},
+				"identify": {
+					"desc": ":value: Kimlik.",
+					"format": {
+						"singular": ":value: vücüt",
+						"plural": ":value: vücütlar"
+					}
+				},
+				"karma": {
+					"desc": "Kaybetmeden :value: oyna",
+					"format": {
+						"singular": ":value: tur",
+						"plural": ":value: turlar"
+					}
+				},
+				"kill_positive": {
+					"desc": ":value: leş.",
+					"format": {
+						"singular": ":value: düşman",
+						"plural": ":value: düşmanlar"
+					}
+				},
+				"win": {
+					"desc": ":value: kazanıldı.",
+					"format": {
+						"singular": ":value: tur",
+						"plural": ":value: turlar"
+					}
+				}
+			},
+			"darkrp": {
+				"buyAmmo": {
+					"desc": ":value: tane cephane satın al.",
+					"format": {
+						"singular": ":value: süre",
+						"plural": ":value: süreler"
+					}
+				},
+				"buyDoor": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: kapı",
+						"plural": ":value: kapılar"
+					}
+				},
+				"buyEntity": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: varlık",
+						"plural": ":value: varlıklar"
+					}
+				},
+				"buyShipment": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: Kargo",
+						"plural": ":value: Kargolar"
+					}
+				},
+				"buyWeapon": {
+					"desc": ":value: satın al.",
+					"format": {
+						"singular": ":value: silah",
+						"plural": ":value: silahlar"
+					}
+				},
+				"lockpick": {
+					"desc": " Bir şeyi cözüyor :value:.",
+					"format": {
+						"singular": ":value: süre",
+						"plural": ":value: süre"
+					}
+				},
+				"changeJob": {
+					"desc": "Mesleğinizi değiştirin :value:.",
+					"format": {
+						"singular": ":value: süre",
+						"plural": ":value: süre"
+					}
+				},
+				"arrest": {
+					"desc": "Tutuklanıyor :value:.",
+					"format": {
+						"singular": ":value: Oyuncu",
+						"plural": ":value: Oyuncular"
+					}
+				},
+				"salary": {
+					"desc": ":value: alındı.",
+					"format": {
+						"singular": ":value: maaş",
+						"plural": ":value: maaşlar"
+					}
+				}
+			},
+			"addons": {
+				"emotes": {
+					"normal": {
+						"desc": "Normal bir ifade kullanın :value:.",
+						"format": {
+							"singular": ":value: süre",
+							"plural": ":value: süreler"
+						}
+					},
+					"hologram": {
+						"desc": "Hologram ifadesi kullanın :value:.",
+						"format": {
+							"singular": ":value: süre",
+							"plural": ":value: süreler"
+						}
+					}
+				},
+				"jcrafting": {
+					"craft": {
+						"desc": ":value: craftla.",
+						"format": {
+							"singular": ":value: eşya",
+							"plural": ":value: eşyalar"
+						}
+					}
+				},
+				"lean": {
+					"sell": {
+						"desc": ":value: yalın satış.",
+						"format": {
+							"singular": ":value: süre",
+							"plural": ":value: süre"
+						}
+					},
+					"drink": {
+						"desc": "İçki :value: yalın.",
+						"format": {
+							"singular": ":value: kupa",
+							"plural": ":value: kupalar"
+						}
+					}
+				},
+				"xenin_care_package": {
+					"flare": {
+						"desc": ":value: at.",
+						"format": {
+							"singular": ":value: fişek",
+							"plural": ":value: fişekler"
+						}
+					},
+					"loot": {
+						"desc": ":value: ele geçir.",
+						"format": {
+							"singular": ":value: bakım paketi",
+							"plural": ":value: bakım paketleri"
+						}
+					},
+					"open": {
+						"desc": ":value: aç.",
+						"format": {
+							"singular": ":value: bakım paketi",
+							"plural": ":value: bakım paketleri"
+						}
+					}
+				},
+				"xenin_coinflip": {
+					"play": {
+						"desc": ":value: Yazıtura oynat",
+						"format": {
+							"singular": ":value: defa",
+							"plural": ":value: defa"
+						}
+					},
+					"win": {
+						"desc": ":value: Yazıtura kazan",
+						"format": {
+							"singular": ":value: defa",
+							"plural": ":value: defa"
+						}
+					}
+				},
+				"zero_genlab": {
+					"infect": {
+						"desc": ":value: enfekte oldu.",
+						"format": {
+							"singular": ":value: süre",
+							"plural": ":value: süre"
+						}
+					},
+					"cure": {
+						"desc": ":value: bir enfeksiyondan iyileşme.",
+						"format": {
+							"singular": ":value: süre",
+							"plural": ":value: süre"
+						}
+					}
+				},
+				"mcphone": {
+					"callStart": {
+						"desc": ":value: çağrı başlat.",
+						"format": {
+							"singular": ":value: süre",
+							"plural": ":value: süre"
+						}
+					},
+					"callAnswer": {
+						"desc": ":value: cevapla.",
+						"format": {
+							"singular": ":value: süre",
+							"plural": ":value: süre"
+						}
+					},
+					"smsSend": {
+						"desc": ":value: yolla.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"smsReceive": {
+						"desc": ":value: aldınız.",
+						"format": {
+							"singular": ":value: SMS",
+							"plural": ":value: SMS"
+						}
+					},
+					"mailSend": {
+						"desc": ":value: yolla.",
+						"format": {
+							"singular": ":value: posta",
+							"plural": ":value: postalar"
+						}
+					}
+				},
+				"glorified_banking": {
+					"withdraw": {
+						"desc": ":value: banka hesabınızdan çekildi",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"deposit": {
+						"desc": ":value: banka hesabınıza yatırıldı",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"transfer": {
+						"desc": ":value: birinin banka hesabına transfer et.",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					}
+				}
+			}
+		}
+	}
+}
