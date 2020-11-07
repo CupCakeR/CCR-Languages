@@ -226,6 +226,13 @@
 						"plural": ":value: caisses"
 					}
 				},
+				"buyFood": {
+					"desc": "Acheter :value:.",
+					"format": {
+						"singular": ":value: nourriture",
+						"plural": ":value: nourritures"
+					}
+				},
 				"buyWeapon": {
 					"desc": "Acheter :value:.",
 					"format": {
