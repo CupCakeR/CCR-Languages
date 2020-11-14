@@ -1,0 +1,37 @@
+{
+	"info": {
+		"name": "English"
+	},
+	"phrases": {
+		"timeAgo": {
+			"seconds": {
+				"singular": ":value: second ago",
+				"plural": ":value: seconds ago"
+			},
+			"minutes": {
+				"singular": ":value: minute ago",
+				"plural": ":value: minutes ago"
+			},
+			"hours": {
+				"singular": ":value: hour ago",
+				"plural": ":value: hours ago"
+			},
+			"days": {
+				"singular": ":value: day ago",
+				"plural": ":value: days ago"
+			},
+			"weeks": {
+				"singular": ":value: week ago",
+				"plural": ":value: weeks ago"
+			},
+			"months": {
+				"singular": ":value: month ago",
+				"plural": ":value: months ago"
+			},
+			"years": {
+				"singular": ":value: year ago",
+				"plural": ":value: years ago"
+			}
+		}
+	}
+}
