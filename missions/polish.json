@@ -28,7 +28,7 @@
 					}
 				},
 				"leaderboard": {
-					"name": "Leaderboard",
+					"name": "Ranking",
 					"stats": {
 						"accomplished": "Suma ukończonych",
 						"discarded": "Suma anulowanych",
