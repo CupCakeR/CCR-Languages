@@ -10,13 +10,13 @@
 					"stats": {
 						"accomplished": "Ukończone",
 						"discarded": "Anulowane",
-						"rewarded": "Nagrodzone",
+						"rewarded": "Nagroda odebrana",
 						"nextRoll": "Następny rzut"
 					},
 					"card": {
 						"contextMenu": {
-							"watch": "Oglądaj misje",
-							"unwatch": "Przestań oglądać misje",
+							"watch": "Sledź misje",
+							"unwatch": "Przestań sledzić misje",
 							"discard": "Usuń misje"
 						},
 						"statusTypes": {
@@ -30,14 +30,14 @@
 				"leaderboard": {
 					"name": "Leaderboard",
 					"stats": {
-						"accomplished": "Wszystkie ukończone",
-						"discarded": "Wszystkie anulowane",
-						"rewarded": "Wszystkie nagrodzone"
+						"accomplished": "Suma ukończonych",
+						"discarded": "Suma anulowanych",
+						"rewarded": "Suma odebranych nagród"
 					},
 					"selection": {
 						"accomplished": "Ukończone",
 						"discarded": "Anulowane",
-						"rewarded": "Nagrodzone"
+						"rewarded": "Odebrane nagrody"
 					},
 					"player": {
 						"contextMenu": {
@@ -53,20 +53,20 @@
 					}
 				},
 				"settings": {
-					"name": "Settings",
+					"name": "Ustawienia",
 					"options": {
-						"enableMissionWatching": "Włącz oglądanie misji",
-						"autoWatchNewMissions": "Automatycznie włącz oglądanie misji",
+						"enableMissionWatching": "Włącz śledzenie misji",
+						"autoWatchNewMissions": "Automatycznie włącz śledzenie misji",
 						"onlyShowWhileHoldingTab": "Pokazuj panel tylko przy trzymaniu TAB",
 						"panelX": "Panel X position",
 						"panelY": "Panel Y position",
-						"enablePopup": "Enable \"Mission accomplished\" popup",
-						"popupStaytime": "Popup staytime (seconds)"
+						"enablePopup": "Włącz okienko \"Misja wykonana\" ",
+						"popupStaytime": "Czas wyświetlania okienka (sekudny)"
 					}
 				}
 			},
 			"endReached": "Nic więcej do pokazania :(",
-			"noData": "Pusto, sprawdź później suko."
+			"noData": "Pusto, sprawdź później."
 		},
 		"chatMessages": {
 			"active": {
@@ -155,51 +155,51 @@
 			},
 			"ttt": {
 				"dna": {
-					"desc": "Znajdź próbki dna :value:.",
+					"desc": "Znajdź próbki DNA :value:.",
 					"format": {
 						"singular": ":value: gracza",
 						"plural": ":value: graczy"
 					}
 				},
 				"equipment": {
-					"desc": "Zakup :value: przedmiotów z twojego joba.",
+					"desc": "Zakup :value: z menu twojej roli.",
 					"format": {
 						"singular": ":value: przedmiot",
 						"plural": ":value: przedmiotów"
 					}
 				},
 				"identify": {
-					"desc": "Identify :value:.",
+					"desc": "Odkryj :value:.",
 					"format": {
-						"singular": ":value: body",
-						"plural": ":value: bodies"
+						"singular": ":value: ciało",
+						"plural": ":value: ciała/ciał"
 					}
 				},
 				"karma": {
-					"desc": "Play :value: without loosing karma.",
+					"desc": "Zagraj :value: bez utraty karmy.",
 					"format": {
-						"singular": ":value: round",
-						"plural": ":value: rounds"
+						"singular": ":value: runde",
+						"plural": ":value: rundy/rundd"
 					}
 				},
 				"kill_positive": {
-					"desc": "Kill :value:.",
+					"desc": "Zabij :value:.",
 					"format": {
-						"singular": ":value: enemy",
-						"plural": ":value: enemies"
+						"singular": ":value: wroga",
+						"plural": ":value: wrogów"
 					}
 				},
 				"win": {
-					"desc": "Win :value:.",
+					"desc": "Wygraj :value:.",
 					"format": {
-						"singular": ":value: round",
-						"plural": ":value: rounds"
+						"singular": ":value: runde",
+						"plural": ":value: rundy/rundd"
 					}
 				}
 			},
 			"darkrp": {
 				"buyAmmo": {
-					"desc": "Kup ammo :value:.",
+					"desc": "Kup amunicję :value:.",
 					"format": {
 						"singular": ":value: raz",
 						"plural": ":value: razy"
@@ -241,7 +241,7 @@
 					}
 				},
 				"changeJob": {
-					"desc": "Zmień swoją prace nierobie :value:.",
+					"desc": "Zmień swoją prace :value:.",
 					"format": {
 						"singular": ":value: raz",
 						"plural": ":value: razy"
