@@ -1,0 +1,200 @@
+{
+	"info": {
+		"name": "English"
+	},
+	"phrases": {
+		"chatEvents": {
+			"createdLobby": "Created lobby.",
+			"playerJoined": ":nick: has joined.",
+			"playerLeft": ":nick: has left.",
+			"playerKicked": ":nick: has been kicked.",
+			"playerGuessedWord": ":nick: has guessed the word.",
+			"playerIsSelectingWord": ":nick: is now selecting a word.",
+			"playerPromoted": ":nick: is now the leader of this lobby.",
+			"invited": ":nick: has been invited to play.",
+			"inviteDeclined": ":nick: declined the invite.",
+			"inviteTimeout": ":nick: did not answer the invite."
+		},
+		"lobby": {
+			"topInfo": {
+				"roundCounter": "Round :cur: of :max:",
+				"paintingsLeft": ":left: painting(s) left",
+				"waiting": "Waiting for players"
+			},
+			"popup": {
+				"waiting": {
+					"waiting": "Waiting for one more player to join"
+				},
+				"wordSelect": {
+					"isSelecting": "is selecting a word"
+				},
+				"cycleEnd": {
+					"timeLimit": "Time is up!",
+					"drawerLeft": "The drawer left the lobby",
+					"points": ":points: points"
+				}
+			},
+			"chatPlaceholder": {
+				"guess": "Guess a word",
+				"chat": "Type to chat"
+			},
+			"playerList": {
+				"title": "Players",
+				"points": ":points: points",
+				"drawer": "Drawer"
+			},
+			"buttons": {
+				"leaveLobby": "Leave lobby",
+				"invite": "Invite someone"
+			}
+		},
+		"minimized": {
+			"title": "Scribble",
+			"resume": "Resume",
+			"leave": "Leave",
+			"roundStates": {
+				"wait": "Waiting for a player to join",
+				"cycle": "Round has ended",
+				"end": "Match has ended",
+				"self": {
+					"word": "You have to choose a word",
+					"active": "You are drawing"
+				},
+				"other": {
+					"word": "Someone is choosing a word",
+					"active": "Someone is drawing"
+				}
+			}
+		},
+		"lobbyList": {
+			"empty": "No lobbies available",
+			"createLobby": {
+				"title": "Create a lobby",
+				"public": "Public",
+				"private": "Private",
+				"maxPlayers": "Max players",
+				"cycles": "Rounds",
+				"drawTime": "Draw time (secs)",
+				"createButton": "Create lobby"
+			},
+			"entry": {
+				"join": "Join",
+				"private": "Private"
+			}
+		}
+	},
+	"wordPacks": {
+		"default": {
+			"name": "Default",
+			"description": "Random words",
+			"words": [
+				"Tree",
+				"Car",
+				"Beer",
+				"Skull"
+			]
+		},
+		"brands": {
+			"name": "Brands and Logos",
+			"description": "Known companies and their products",
+			"words": [
+				"Adidas",
+				"Nike",
+				"Discord",
+				"Pepsi",
+				"Coca-Cola",
+				"Discord",
+				"Steam",
+				"Mercedes",
+				"BMW",
+				"Volkswagen"
+			]
+		},
+		"minecraft": {
+			"name": "Minecraft",
+			"description": "Words from the Minecraft universe",
+			"words": [
+				"Steve",
+				"Herobrine",
+				"Bat",
+				"Chicken",
+				"Cow",
+				"Donkey",
+				"Fox",
+				"Horse",
+				"Mule",
+				"Ocelot",
+				"Panda",
+				"Parrot",
+				"Pig",
+				"Rabbit",
+				"Sheep",
+				"Squid",
+				"Turtle",
+				"Villager",
+				"Wolf",
+				"Llama",
+				"Dolphin",
+				"Cave spider",
+				"Enderman",
+				"Spider",
+				"Zombie pigman",
+				"Blaze",
+				"Creeper",
+				"Drowned",
+				"Elder guardian",
+				"Endermite",
+				"Evoker",
+				"Ghast",
+				"Guardian",
+				"Husk",
+				"Magma cube",
+				"Phantom",
+				"Pillager",
+				"Ravager",
+				"Shulker",
+				"Silverfish",
+				"Skeleton",
+				"Slime",
+				"Spider jockey",
+				"Stray",
+				"Vex",
+				"Vindicator",
+				"Witch",
+				"Wither skeleton",
+				"Zombie",
+				"Zombie villager",
+				"Iron golem",
+				"Ender dragon",
+				"Anvil",
+				"Bookshelf",
+				"Bed",
+				"Chest",
+				"Coal",
+				"Crafting table",
+				"Diamond",
+				"Emerald",
+				"Enchanting table",
+				"Ender chest",
+				"Furnace",
+				"Gold",
+				"Jukebox",
+				"Nether portal",
+				"Obsidian",
+				"TNT",
+				"Torch",
+				"Sword",
+				"Bow",
+				"Helmet",
+				"Fishing rod",
+				"Axe",
+				"Shovel",
+				"Hoe",
+				"Flint and steel",
+				"Trident",
+				"Music disc",
+				"Shears"
+			]
+		}
+	}
+}
