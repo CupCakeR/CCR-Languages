@@ -3,6 +3,7 @@
 		"name": "English"
 	},
 	"phrases": {
+		"test": "bruh",
 		"chatEvents": {
 			"createdLobby": "Created lobby.",
 			"playerJoined": ":nick: has joined.",
