@@ -4,16 +4,31 @@ name: Validate JSONs
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'betterwarns/**.json'
+      - 'missions/**.json'
+      - 'scribble/**.json'
   pull_request:
     branches: [ master ]
+    paths:
+      - 'betterwarns/**.json'
+      - 'missions/**.json'
+      - 'scribble/**.json'
 
 jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+
+      - name: Get changed files
+        id: file_changes
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          output: ','
+
       - name: Validate JSON
         uses: docker://nhalstead00/validate-json-action:latest
         env:
           INPUT_SCHEMA: /schema.json
-          INPUT_JSONS: /betterwarns/*.json,/missions/*.json,/scribble/*.json
+          INPUT_JSONS: ${{ steps.file_changes.outputs.files }}
