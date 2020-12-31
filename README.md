@@ -13,3 +13,22 @@ As I don't speak every language out there, expect (depending on what has been ch
 http://www.jsondiff.com/ - Allows you to easily compare two JSON files online.
 
 ## Contributors
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/CupCakeR>
+            <img src=https://avatars3.githubusercontent.com/u/27384135?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Tom/>
+            <br />
+            <sub style="font-size:14px"><b>Tom</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Justyg>
+            <img src=https://avatars3.githubusercontent.com/u/33493642?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Justyg/>
+            <br />
+            <sub style="font-size:14px"><b>Justyg</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
