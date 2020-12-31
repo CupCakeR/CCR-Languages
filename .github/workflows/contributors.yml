@@ -13,7 +13,7 @@ jobs:
     - uses: BobAnkh/add-contributors@master
       with:
         REPO_NAME: 'CupCakeR/CCR-Languages'
-        CONTRIBUTOR: '### Contributors'
+        CONTRIBUTOR: '## Contributors'
         COLUMN_PER_ROW: '6'
         ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
         IMG_WIDTH: '100'
