@@ -1,0 +1,19 @@
+
+name: Validate JSONs
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: docker://nhalstead00/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: /schema.json
+          INPUT_JSONS: /**/*.json
