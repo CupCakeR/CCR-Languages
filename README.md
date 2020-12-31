@@ -11,3 +11,5 @@ As I don't speak every language out there, expect (depending on what has been ch
 
 ## Tools
 http://www.jsondiff.com/ - Allows you to easily compare two JSON files online.
+
+## Contributors
