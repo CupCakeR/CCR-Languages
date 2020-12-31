@@ -16,4 +16,4 @@ jobs:
         uses: docker://nhalstead00/validate-json-action:latest
         env:
           INPUT_SCHEMA: /schema.json
-          INPUT_JSONS: /betterwarns/*.json,/missions/*.json,scribble/*.json
+          INPUT_JSONS: /betterwarns/*.json,/missions/*.json,/scribble/*.json
