@@ -5,15 +5,11 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'betterwarns/**.json'
-      - 'missions/**.json'
-      - 'scribble/**.json'
+      - '*/**.json'
   pull_request:
     branches: [ master ]
     paths:
-      - 'betterwarns/**.json'
-      - 'missions/**.json'
-      - 'scribble/**.json'
+      - '*/**.json'
 
 jobs:
   verify-json-validation:
