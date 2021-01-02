@@ -226,6 +226,13 @@
 						"plural": ":value: Kargolar"
 					}
 				},
+				"buyFood": {
+					"desc": "",
+					"format": {
+						"singular": "",
+						"plural": ""
+					}
+				},
 				"buyWeapon": {
 					"desc": ":value: satın al.",
 					"format": {
