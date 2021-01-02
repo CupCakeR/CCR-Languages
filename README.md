@@ -10,7 +10,7 @@
 As I don't speak every language out there, expect (depending on what has been changed) to wait a bit for pull-requests to be merged.
 
 ## Tools
-http://www.jsondiff.com/ - Allows you to easily compare two JSON files online.
+https://json-diff.com/ - Allows you to easily compare & edit two JSON files online.
 
 ## Contributors
 
