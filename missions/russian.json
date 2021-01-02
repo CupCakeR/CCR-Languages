@@ -226,6 +226,13 @@
 						"plural": ":value: груз"
 					}
 				},
+				"buyFood": {
+					"desc": "",
+					"format": {
+						"singular": "",
+						"plural": ""
+					}
+				},
 				"buyWeapon": {
 					"desc": "Купить :value:.",
 					"format": {
@@ -393,6 +400,29 @@
 						"format": {
 							"singular": ":value: письмо",
 							"plural": ":value: письм"
+						}
+					}
+				},
+				"glorified_banking": {
+					"withdraw": {
+						"desc": "",
+						"format": {
+							"singular": "",
+							"plural": ""
+						}
+					},
+					"deposit": {
+						"desc": "",
+						"format": {
+							"singular": "",
+							"plural": ""
+						}
+					},
+					"transfer": {
+						"desc": "",
+						"format": {
+							"singular": "",
+							"plural": ""
 						}
 					}
 				}

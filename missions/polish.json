@@ -58,8 +58,8 @@
 						"enableMissionWatching": "Włącz śledzenie misji",
 						"autoWatchNewMissions": "Automatycznie włącz śledzenie misji",
 						"onlyShowWhileHoldingTab": "Pokazuj panel tylko przy trzymaniu TAB",
-						"panelX": "Panel X position",
-						"panelY": "Panel Y position",
+						"panelX": "",
+						"panelY": "",
 						"enablePopup": "Włącz okienko \"Misja wykonana\" ",
 						"popupStaytime": "Czas wyświetlania okienka (sekudny)"
 					}
@@ -215,15 +215,22 @@
 				"buyEntity": {
 					"desc": "Kup :value:.",
 					"format": {
-						"singular": ":value: entity",
-						"plural": ":value: entities"
+						"singular": "",
+						"plural": ""
 					}
 				},
 				"buyShipment": {
-					"desc": "Buy :value:.",
+					"desc": "",
 					"format": {
-						"singular": ":value: shipment",
-						"plural": ":value: shipments"
+						"singular": "",
+						"plural": ""
+					}
+				},
+				"buyFood": {
+					"desc": "",
+					"format": {
+						"singular": "",
+						"plural": ""
 					}
 				},
 				"buyWeapon": {
@@ -265,26 +272,26 @@
 			"addons": {
 				"emotes": {
 					"normal": {
-						"desc": "Use a normal emote :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: time",
-							"plural": ":value: times"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"hologram": {
-						"desc": "Use a hologram emote :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: time",
-							"plural": ":value: times"
+							"singular": "",
+							"plural": ""
 						}
 					}
 				},
 				"jcrafting": {
 					"craft": {
-						"desc": "Craft :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: item",
-							"plural": ":value: items"
+							"singular": "",
+							"plural": ""
 						}
 					}
 				},
@@ -345,17 +352,17 @@
 				},
 				"zero_genlab": {
 					"infect": {
-						"desc": "Get infected :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: time",
-							"plural": ":value: times"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"cure": {
-						"desc": "Get cured from an infection :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: time",
-							"plural": ":value: times"
+							"singular": "",
+							"plural": ""
 						}
 					}
 				},
@@ -368,54 +375,54 @@
 						}
 					},
 					"callAnswer": {
-						"desc": "Answer a call :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: time",
-							"plural": ":value: times"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"smsSend": {
-						"desc": "Send :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: SMS",
-							"plural": ":value: SMS"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"smsReceive": {
-						"desc": "Receive :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: SMS",
-							"plural": ":value: SMS"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"mailSend": {
-						"desc": "Send :value:.",
+						"desc": "",
 						"format": {
-							"singular": ":value: mail",
-							"plural": ":value: mails"
+							"singular": "",
+							"plural": ""
 						}
 					}
 				},
 				"glorified_banking": {
 					"withdraw": {
-						"desc": "Withdraw :value: from your bank account.",
+						"desc": "",
 						"format": {
-							"singular": "$:value:",
-							"plural": "$:value:"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"deposit": {
-						"desc": "Deposit :value: into your bank account.",
+						"desc": "",
 						"format": {
-							"singular": "$:value:",
-							"plural": "$:value:"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"transfer": {
-						"desc": "Transfer :value: to someone's bank account.",
+						"desc": "",
 						"format": {
-							"singular": "$:value:",
-							"plural": "$:value:"
+							"singular": "",
+							"plural": ""
 						}
 					}
 				}
