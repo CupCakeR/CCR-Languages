@@ -402,6 +402,29 @@
 							"plural": ":value: mails"
 						}
 					}
+				},
+				"glorified_banking": {
+					"withdraw": {
+						"desc": "",
+						"format": {
+							"singular": "",
+							"plural": ""
+						}
+					},
+					"deposit": {
+						"desc": "",
+						"format": {
+							"singular": "",
+							"plural": ""
+						}
+					},
+					"transfer": {
+						"desc": "",
+						"format": {
+							"singular": "",
+							"plural": ""
+						}
+					}
 				}
 			}
 		}
