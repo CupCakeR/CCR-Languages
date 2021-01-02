@@ -395,6 +395,29 @@
 							"plural": ":value: Mails"
 						}
 					}
+				},
+				"glorified_banking": {
+					"withdraw": {
+						"desc": "Hebe :value: von deinem Bankkonto ab.",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"deposit": {
+						"desc": "Buche :value: auf dein Bankkonto.",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"transfer": {
+						"desc": "Überweise :value: an jemanden.",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					}
 				}
 			}
 		}
