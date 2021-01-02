@@ -227,10 +227,10 @@
 					}
 				},
 				"buyFood": {
-					"desc": "Buy :value:.",
+					"desc": "",
 					"format": {
-						"singular": ":value: food",
-						"plural": ":value: foods"
+						"singular": "",
+						"plural": ""
 					}
 				},
 				"buyWeapon": {
@@ -405,24 +405,24 @@
 				},
 				"glorified_banking": {
 					"withdraw": {
-						"desc": "Withdraw :value: from your bank account.",
+						"desc": "",
 						"format": {
-							"singular": "$:value:",
-							"plural": "$:value:"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"deposit": {
-						"desc": "Deposit :value: into your bank account.",
+						"desc": "",
 						"format": {
-							"singular": "$:value:",
-							"plural": "$:value:"
+							"singular": "",
+							"plural": ""
 						}
 					},
 					"transfer": {
-						"desc": "Transfer :value: to someone's bank account.",
+						"desc": "",
 						"format": {
-							"singular": "$:value:",
-							"plural": "$:value:"
+							"singular": "",
+							"plural": ""
 						}
 					}
 				}
