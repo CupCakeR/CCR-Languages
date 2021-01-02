@@ -226,6 +226,13 @@
 						"plural": ":value: shipments"
 					}
 				},
+				"buyFood": {
+					"desc": "Kaufe :value:.",
+					"format": {
+						"singular": ":value: Essen",
+						"plural": ":value: Essen"
+					}
+				},
 				"buyWeapon": {
 					"desc": "Kaufe :value:.",
 					"format": {
