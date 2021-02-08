@@ -113,7 +113,7 @@
 			"weaponInfo": {
 				"zone": "Look at a vehicle in a parking zone to check its current parking time",
 				"click": "Left click on a vehicle to issue a parking fine",
-				"overtime": "Overtimer"
+				"overtime": "Overtime"
 			},
 			"create": {
 				"title": "Issue a fine",
