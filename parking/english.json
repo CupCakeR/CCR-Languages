@@ -1,0 +1,158 @@
+{
+	"info": {
+		"name": "English"
+	},
+	"phrases": {
+		"admin": {
+			"title": "Parking - Admin",
+			"buildMode": {
+				"enable": "Enable build mode",
+				"disable": "Disable build mode"
+			},
+			"addParkingMeter": "Add parking meter",
+			"addParkingZone": "Add parking zone",
+			"list": {
+				"parkingMeter": "Parking meter",
+				"parkingZone": "Parking zone",
+				"notSpawned": "NOT SPAWNED"
+			},
+			"zoneCreation": {
+				"firstPoint": "Select first point",
+				"secondPoint": "Select second point",
+				"confirm": "Confirm",
+				"reset": "Reset",
+				"abort": "Abort"
+			},
+			"config": {
+				"parkingMeter": {
+					"horizontal": "Horizontal box",
+					"distance": "Box offset from parking meter",
+					"maxParkingTime": "Max. parking time (minutes)",
+					"radialPoints": "Radial points/segments",
+					"pricePerMinute": "Price per minute",
+					"pricePerMinutePlaceholder": "Price",
+					"action": {
+						"save": "Save changes",
+						"respawn": "Respawn",
+						"delete": "Delete permanently"
+					}
+				},
+				"parkingZone": {
+					"worldpanelEnable": "Enable 3d2d worldpanel",
+					"worldpanelScale": "Worldpanel scale",
+					"worldpanelVerticalOffset": "Worldpanel vertical offset",
+					"maxParkingTime": "Max. parking time (minutes)",
+					"incrementLength": "Increment length (minutes)",
+					"incrementFee": "Fee per increment",
+					"penaltyMultiplier": "Fee penalty (multiplier)",
+					"action": {
+						"save": "Save changes",
+						"delete": "Delete permanently"
+					}
+				}
+			}
+		},
+		"entities": {
+			"wheelClamp": {
+				"modelText": "FINED",
+				"hoverText": "This car has been fined!"
+			},
+			"parkingZone": {
+				"popup": {
+					"title": "Parking zone",
+					"maxParkingTime": {
+						"label": "Max. parking time",
+						"unlimited": "Unlimited"
+					},
+					"fee": {
+						"label": "Fee",
+						"feePerMinute": {
+							"singular": ":fee: / :minutes: minute",
+							"plural": ":fee: / :minutes: minutes"
+						},
+						"none": "None"
+					},
+					"timeParked": {
+						"label": "Time parked"
+					},
+					"feeToPay": {
+						"label": "Fee",
+						"none": "None"
+					}
+				},
+				"worldpanel": {
+					"fee": {
+						"singular": ":fee: / :minutes: minute",
+						"plural": ":fee: / :minutes: minutes"
+					},
+					"time": {
+						"singular": ":minutes: minute",
+						"plural": ":minutes: minutes"
+					},
+					"noTimeLimit": "No time limit",
+					"free": "Free"
+				}
+			},
+			"parkingMeter": {
+				"popup": {
+					"title": "Parking meter",
+					"timeLeft": "Time left",
+					"paymentRequired": "Payment required"
+				},
+				"frame": {
+					"selectMinutes": "Select minutes",
+					"minutes": "Minutes",
+					"extend": {
+						"singular": "Extend to :minutes: minute for :price:",
+						"plural": "Extend to :minutes: minutes for :price:"
+					}
+				}
+			}
+		},
+		"fine": {
+			"weaponInfo": {
+				"zone": "Look at a vehicle in a parking zone to check its current parking time",
+				"click": "Left click on a vehicle to issue a parking fine",
+				"overtime": "Overtimer"
+			},
+			"create": {
+				"title": "Issue a fine",
+				"submit": "Issue fine"
+			},
+			"view": {
+				"title": "Viewing fine",
+				"adminRemove": "Remove",
+				"timeAgo": "Time ago",
+				"contextMenu": {
+					"copySteamId": "Copy SteamID",
+					"copySteamId64": "Copy SteamID64",
+					"openProfile": "Open Steam profile"
+				},
+				"pay": "Pay fine"
+			}
+		},
+		"violations": {
+			"parkingMeterUnpaidOrOvertime": "Parking at a parking meter without paying, or for longer than the paid time",
+			"parkingZoneOvertime": "Parking too long in a parking zone",
+			"prohibitedSpace": "Parking in a prohibited space",
+			"doubleParking": "Double parking (multi-space parking / parking parallel to a car already parked at a curb)",
+			"privateProperty": "Parking on private property without permission",
+			"wrongDirection": "Parking facing against the direction of traffic",
+			"outsideMarkedSquares": "Parking outside of marked squares",
+			"onSidewalk": "Parking on a sidewalk",
+			"tooCloseToIntersection": "Parking in, too close to or within an intersection, railroad crossing or crosswalk"
+		},
+		"notifications": {
+			"fineIssued": "A parking fine has been issued against you.",
+			"finePaid": "A parking fine issued against you has been paid.",
+			"mustBeOwnerToView": "You must be the owner of this vehicle!",
+			"requiresParkedVehicle": "A parked vehicle is required!",
+			"mustBeOwnerToPayParkingMeter": "You must be the owner of the parked vehicle!",
+			"vehicleHasFine": "The parked vehicles' fine must be paid first!",
+			"paidZoneFees": "You paid :money: parking zone fees.",
+			"paidPendingFees": "You paid :money: (pending fee).",
+			"cantAffordZone": "You can't afford to pay the zone fees, you will have to pay them next time.",
+			"cantAffordPendingFees": "You can't afford to pay your pending fees, you will have to pay them next time."
+		}
+	}
+}
