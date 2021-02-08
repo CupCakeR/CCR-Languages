@@ -55,7 +55,7 @@
 		"entities": {
 			"wheelClamp": {
 				"modelText": "FINED",
-				"hoverText": "This car has been fined!"
+				"hoverText": "Parking fine issued!"
 			},
 			"parkingZone": {
 				"popup": {
