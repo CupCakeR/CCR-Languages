@@ -146,6 +146,7 @@
 		"notifications": {
 			"fineIssued": "A parking fine has been issued against you.",
 			"finePaid": "A parking fine issued against you has been paid.",
+			"fineForceRemoved": "A parking fine issued against you has been removed by an admin.",
 			"mustBeOwnerToView": "You must be the owner of this vehicle!",
 			"requiresParkedVehicle": "A parked vehicle is required!",
 			"mustBeOwnerToPayParkingMeter": "You must be the owner of the parked vehicle!",

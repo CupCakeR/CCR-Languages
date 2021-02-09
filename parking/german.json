@@ -146,6 +146,7 @@
 		"notifications": {
 			"fineIssued": "Eine Parkstrafe wurde gegen dich verhängt.",
 			"finePaid": "Eine Parkstrafen gegen dich wurde bezahlt.",
+			"fineForceRemoved": "Eine Parkstrafe gegen dich wurde durch einen Admin entfernt.",
 			"mustBeOwnerToView": "Du musst der Besitzer dieses Fahrzeuges sein!",
 			"requiresParkedVehicle": "Ein geparktes Fahrzeug ist erforderlich!",
 			"mustBeOwnerToPayParkingMeter": "Du musst der Besitzer dieses Fahrzeuges sein!",
