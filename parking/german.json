@@ -1,0 +1,158 @@
+{
+	"info": {
+		"name": "German"
+	},
+	"phrases": {
+		"admin": {
+			"title": "Parking - Administration",
+			"buildMode": {
+				"enable": "Baumodus aktivieren",
+				"disable": "Baumodus deaktivieren"
+			},
+			"addParkingMeter": "Parkuhr hinzufügen",
+			"addParkingZone": "Parkzone hinzufügen",
+			"list": {
+				"parkingMeter": "Parkuhr",
+				"parkingZone": "Parkzone",
+				"notSpawned": "NICHT SPAWNED"
+			},
+			"zoneCreation": {
+				"firstPoint": "Ersten Punkt auswählen",
+				"secondPoint": "Zweiten Punkt auswählen",
+				"confirm": "Bestätigen",
+				"reset": "Zurücksetzen",
+				"abort": "Abbrechen"
+			},
+			"config": {
+				"parkingMeter": {
+					"horizontal": "Horizontaler Parkplatz",
+					"distance": "Abstand zur Parkuhr",
+					"maxParkingTime": "Maximale Parkzeit (Minuten)",
+					"radialPoints": "Radial points/segments",
+					"pricePerMinute": "Gebühr pro Minute",
+					"pricePerMinutePlaceholder": "Gebühr",
+					"action": {
+						"save": "Änderungen speichern",
+						"respawn": "Respawn",
+						"delete": "Unwiderruflich löschen"
+					}
+				},
+				"parkingZone": {
+					"worldpanelEnable": "3d2d worldpanel aktivieren",
+					"worldpanelScale": "Worldpanel Skalierung",
+					"worldpanelVerticalOffset": "Worldpanel vertikaler Abstand",
+					"maxParkingTime": "Max. Parkzeit (Minuten)",
+					"incrementLength": "Increment Länge (Minuten)",
+					"incrementFee": "Gebühr pro increment",
+					"penaltyMultiplier": "Strafgebühr (Multiplikator)",
+					"action": {
+						"save": "Änderungen speichern",
+						"delete": "Unwiderruflich löschen"
+					}
+				}
+			}
+		},
+		"entities": {
+			"wheelClamp": {
+				"modelText": "FINED",
+				"hoverText": "Parkstrafe verhängt!"
+			},
+			"parkingZone": {
+				"popup": {
+					"title": "Parkzone",
+					"maxParkingTime": {
+						"label": "Max. Parkzeit",
+						"unlimited": "Unbegrenzt"
+					},
+					"fee": {
+						"label": "Gebühr",
+						"feePerMinute": {
+							"singular": ":fee: / :minutes: Minute",
+							"plural": ":fee: / :minutes: Minuten"
+						},
+						"none": "Keine"
+					},
+					"timeParked": {
+						"label": "Zeit geparkt"
+					},
+					"feeToPay": {
+						"label": "Gebühr",
+						"none": "Keine"
+					}
+				},
+				"worldpanel": {
+					"fee": {
+						"singular": ":fee: / :minutes: Minute",
+						"plural": ":fee: / :minutes: Minuten"
+					},
+					"time": {
+						"singular": ":minutes: Minute",
+						"plural": ":minutes: Minuten"
+					},
+					"noTimeLimit": "Kein Zeitlimit",
+					"free": "Kostenlos"
+				}
+			},
+			"parkingMeter": {
+				"popup": {
+					"title": "Parkuhr",
+					"timeLeft": "Zeit verbleibend",
+					"paymentRequired": "Zahlung erforderlich"
+				},
+				"frame": {
+					"selectMinutes": "Minuten auswählen",
+					"minutes": "Minuten",
+					"extend": {
+						"singular": "Auf :minutes: Minute für :price: verlängern",
+						"plural": "Auf :minutes: Minuten für :price: verlängern"
+					}
+				}
+			}
+		},
+		"fine": {
+			"weaponInfo": {
+				"zone": "Schau ein geparktes Auto an um die Parkzeit zu überprüfen",
+				"click": "Linksklick auf ein Auto um eine Parkstrafe zu verhängen",
+				"overtime": "Überzogen"
+			},
+			"create": {
+				"title": "Parkstrafe verhängen",
+				"submit": "Parkstrafe verhängen"
+			},
+			"view": {
+				"title": "Parkstrafe",
+				"adminRemove": "Entfernen",
+				"timeAgo": "Vor",
+				"contextMenu": {
+					"copySteamId": "SteamID kopieren",
+					"copySteamId64": "SteamID64 kopieren",
+					"openProfile": "Steamprofil öffnen"
+				},
+				"pay": "Bußgeld bezahlen"
+			}
+		},
+		"violations": {
+			"parkingMeterUnpaidOrOvertime": "Parken an einer Parkuhr ohne zu Zahlen oder überzogener Parkzeit",
+			"parkingZoneOvertime": "Zu langes Parken in einer Parkzone",
+			"prohibitedSpace": "Parken auf einer verbotenen Fläche",
+			"doubleParking": "Parken in zweiter Reihe oder das Nutzen mehrerer Parkplätze",
+			"privateProperty": "Parken auf einem Privatgrundstück ohne Genehmigung",
+			"wrongDirection": "Parken entgegen der Fahrtrichtung",
+			"outsideMarkedSquares": "Parken außerhalb der Bodenmarkierung",
+			"onSidewalk": "Parken auf dem Geheweg",
+			"tooCloseToIntersection": "Parken in, zu nahe an oder innerhalb einer Kreuzung, eines Bahnübergangs oder eines Zebrastreifens"
+		},
+		"notifications": {
+			"fineIssued": "Eine Parkstrafe wurde gegen dich verhängt.",
+			"finePaid": "Eine Parkstrafen gegen dich wurde bezahlt.",
+			"mustBeOwnerToView": "Du musst der Besitzer dieses Fahrzeuges sein!",
+			"requiresParkedVehicle": "Ein geparktes Fahrzeug ist erforderlich!",
+			"mustBeOwnerToPayParkingMeter": "Du musst der Besitzer dieses Fahrzeuges sein!",
+			"vehicleHasFine": "Die Parkstrafe muss erst bezahlt werden!",
+			"paidZoneFees": "Du hast :money: Parkgebühr bezahlt.",
+			"paidPendingFees": "Du hast :money: ausstehende Parkgebühr bezahlt.",
+			"cantAffordZone": "Du konntest dir die Parkgebühren nicht leisten und wirst das nächste mal zur Zahlung aufgefordert.",
+			"cantAffordPendingFees": "Du konntest die ausstehenden Gebühren nicht bezahlen und wirst das nächste mal zur Zahlung aufgefordert."
+		}
+	}
+}
