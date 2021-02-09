@@ -100,6 +100,7 @@
 					"paymentRequired": "Zahlung erforderlich"
 				},
 				"frame": {
+					"title": "Parkuhr",
 					"selectMinutes": "Minuten auswählen",
 					"minutes": "Minuten",
 					"extend": {
