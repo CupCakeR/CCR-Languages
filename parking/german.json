@@ -123,7 +123,7 @@
 			"view": {
 				"title": "Parkstrafe",
 				"adminRemove": "Entfernen",
-				"timeAgo": "Vor",
+				"timeAgo": "Wann",
 				"contextMenu": {
 					"copySteamId": "SteamID kopieren",
 					"copySteamId64": "SteamID64 kopieren",
