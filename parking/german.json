@@ -132,6 +132,11 @@
 				"pay": "Bußgeld bezahlen"
 			}
 		},
+		"outstandingFeeQuery": {
+			"title": "Warnung",
+			"text": "Du musst deine ausstehenden Parkstrafen begleichen, bevor du eine Parkuhr verwenden kannst.",
+			"pay": "Bezahlen"
+		},
 		"violations": {
 			"parkingMeterUnpaidOrOvertime": "Parken an einer Parkuhr ohne zu Zahlen oder überzogener Parkzeit",
 			"parkingZoneOvertime": "Zu langes Parken in einer Parkzone",

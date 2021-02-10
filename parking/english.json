@@ -132,6 +132,11 @@
 				"pay": "Pay fine"
 			}
 		},
+		"outstandingFeeQuery": {
+			"title": "Warning",
+			"text": "You are required to pay your outstanding fees of :money: in order to use a parking meter.",
+			"pay": "Pay fees"
+		},
 		"violations": {
 			"parkingMeterUnpaidOrOvertime": "Parking at a parking meter without paying, or for longer than the paid time",
 			"parkingZoneOvertime": "Parking too long in a parking zone",
