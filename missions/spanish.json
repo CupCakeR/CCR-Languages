@@ -1,0 +1,165 @@
+{
+	"info": {
+		"name": "Spanish"
+	},
+	"phrases": {
+		"admin": {
+			"title": "Estacionamiento - Admin.",
+			"buildMode": {
+				"enable": "Activar modo de construcción",
+				"disable": "Desactivar modo de construcción"
+			},
+			"addParkingMeter": "Añadir Parquímetro",
+			"addParkingZone": "Añadir zona de estacionamiento",
+			"list": {
+				"parkingMeter": "Parquímetro",
+				"parkingZone": "Zona de estacionamiento",
+				"notSpawned": "SIN APARECER"
+			},
+			"zoneCreation": {
+				"firstPoint": "Seleccionar punto inicial",
+				"secondPoint": "Seleccionar segundo punto",
+				"confirm": "Confirmar",
+				"reset": "Reiniciar",
+				"abort": "Cancelar"
+			},
+			"config": {
+				"parkingMeter": {
+					"horizontal": "Caja horizontal",
+					"distance": "Espacio al margen desde el Parquímetro",
+					"maxParkingTime": "Tiempo máximo de estacionamiento (minutos)",
+					"radialPoints": "Puntos/Segmentos radiales",
+					"pricePerMinute": "Precio por minuto",
+					"pricePerMinutePlaceholder": "Precio",
+					"action": {
+						"save": "Guardar cambios",
+						"respawn": "Reaparecer",
+						"delete": "Eliminar permanentemente"
+					}
+				},
+				"parkingZone": {
+					"worldpanelEnable": "Habilitar worldpanel 3d2d",
+					"worldpanelScale": "Escala del worldpanel",
+					"worldpanelVerticalOffset": "Espacio vertical fuera del margen del Worldpanel",
+					"maxParkingTime": "Tiempo máx. de estacionamiento (minutos)",
+					"incrementLength": "Incrementar duración (minutos)",
+					"incrementFee": "Tarifa por incremento",
+					"penaltyMultiplier": "Penalización de tarifa (multiplicador)",
+					"action": {
+						"save": "Guardar cambios",
+						"delete": "Eliminar permanentemente"
+					}
+				}
+			}
+		},
+		"entities": {
+			"wheelClamp": {
+				"modelText": "MULTADO",
+				"hoverText": "¡Multa de estacionamiento emitida!"
+			},
+			"parkingZone": {
+				"popup": {
+					"title": "Zona de estacionamiento",
+					"maxParkingTime": {
+						"label": "Tiempo máx. de estacionamiento",
+						"unlimited": "Ilimitado"
+					},
+					"fee": {
+						"label": "Multa",
+						"feePerMinute": {
+							"singular": ":fee: / :minutes: minuto",
+							"plural": ":fee: / :minutes: minutos"
+						},
+						"none": "Nada"
+					},
+					"timeParked": {
+						"label": "Tiempo estacionado"
+					},
+					"feeToPay": {
+						"label": "Multa",
+						"none": "Nada"
+					}
+				},
+				"worldpanel": {
+					"fee": {
+						"singular": ":fee: / :minutes: minuto",
+						"plural": ":fee: / :minutes: minutos"
+					},
+					"time": {
+						"singular": ":minutes: minuto",
+						"plural": ":minutes: minutos"
+					},
+					"noTimeLimit": "Sin tiempo límite",
+					"free": "Gratis" --Gratis = for free, Libre = free (space)
+				}
+			},
+			"parkingMeter": {
+				"popup": {
+					"title": "Parquímetro",
+					"timeLeft": "Tiempo restante",
+					"paymentRequired": "Pago requerido"
+				},
+				"frame": {
+					"title": "Parquímetro",
+					"selectMinutes": "Seleccionar minutos",
+					"minutes": "Minutos",
+					"extend": {
+						"singular": "Extender a :minutes: minuto por :price:",
+						"plural": "Extender a :minutes: minutos por :price:"
+					}
+				}
+			}
+		},
+		"fine": {
+			"weaponInfo": {
+				"zone": "Mira a un vehículo en una zona de estacionamiento para checkear su tiempo de estacionamiento actual",
+				"click": "Click izquierdo en un vehículo para establecer una multa de estacionamiento",
+				"overtime": "Tiempo sobrepasado"
+			},
+			"create": {
+				"title": "Establecer una multa",
+				"submit": "Establecer multa"
+			},
+			"view": {
+				"title": "Viendo multa",
+				"adminRemove": "Remover",
+				"timeAgo": "Hace",
+				"contextMenu": {
+					"copySteamId": "Copiar SteamID",
+					"copySteamId64": "Copiar SteamID64",
+					"openProfile": "Abrir perfil de Steam"
+				},
+				"pay": "Pagar multa"
+			}
+		},
+		"outstandingFeeQuery": {
+			"title": "Advertencia",
+			"text": "Debe pagar sus multas pendientes de :money: para utilizar un parquímetro",
+			"pay": "Pagar multas"
+		},
+		"violations": {
+			"parkingMeterUnpaidOrOvertime": "Estacionar en un parquímetro sin pagar, o por un tiempo superior al pagado",
+			"parkingZoneOvertime": "Estacionar demasiado tiempo en una zona de estacionamiento",
+			"prohibitedSpace": "Estacionar un una zona prohibida",
+			"doubleParking": "Doble fila (estacionar de forma paralela a un auto ya estacionado)",
+			"privateProperty": "Estacionar en una propiedad privada sin consentimiento",
+			"wrongDirection": "Estacionar en dirección contraria a la dirección del tráfico",
+			"outsideMarkedSquares": "Estacionar fuera de los cuadrados marcados",
+			"onSidewalk": "Estacionar en una senda peatonal",
+			"tooCloseToIntersection": "Estacionar demasiado cerca de un cruce de ferrocarril o una senda peatonal"
+		},
+		"notifications": {
+			"fineIssued": "Se te estableció una multa de estacionamiento.",
+			"finePaid": "Has pagado una multa de estacionamiento.",
+			"fineForceRemoved": "La multa establecida en contra tuya fue removida por un administrador.",
+			"mustBeOwnerToView": "¡Debes ser el propietario del vehículo!",
+			"requiresParkedVehicle": "¡Se requiere un auto estacionado!",
+			"mustBeOwnerToPayParkingMeter": "¡Debes ser el propietario del vehículo estacionado!",
+			"vehicleHasFine": "¡La multa de los autos estacionados debe ser previamente pagada!",
+			"paidZoneFees": "Has pagado :money: por multas de estacionamiento.",
+			"paidPendingFees": "Has pagado :money: (multa pendiente).",
+			"cantAffordZone": "No tienes el dinero suficiente para pagar las multas de zona, deberás pagarlas luego.",
+			"cantAffordPendingFees": "No tienes el dinero suficiente para pagar las multas, deberás pagarlas luego."
+		}
+	}
+}
