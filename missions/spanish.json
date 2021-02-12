@@ -90,7 +90,7 @@
 						"plural": ":minutes: minutos"
 					},
 					"noTimeLimit": "Sin tiempo límite",
-					"free": "Gratis" --Gratis = for free, Libre = free (space)
+					"free": "Gratis"
 				}
 			},
 			"parkingMeter": {
