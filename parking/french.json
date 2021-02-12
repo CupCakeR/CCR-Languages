@@ -1,0 +1,165 @@
+{
+	"info": {
+		"name": "French"
+	},
+	"phrases": {
+		"admin": {
+			"title": "Parking - Admin",
+			"buildMode": {
+				"enable": "Activer le mode de construction",
+				"disable": "Désactiver le mode de construction"
+			},
+			"addParkingMeter": "Ajouter un parcmètre",
+			"addParkingZone": "Ajouter une zone de stationnement",
+			"list": {
+				"parkingMeter": "Parcmètre",
+				"parkingZone": "Zone de stationnement",
+				"notSpawned": "PAS SPAWN"
+			},
+			"zoneCreation": {
+				"firstPoint": "Sélectionnez le premier point",
+				"secondPoint": "Sélectionnez le second point",
+				"confirm": "Confirmer",
+				"reset": "Réinitialiser",
+				"abort": "Abandonner"
+			},
+			"config": {
+				"parkingMeter": {
+					"horizontal": "Boîte horizontale",
+					"distance": "Décalage de la boîte par rapport au parcmètre",
+					"maxParkingTime": "Max. temps de stationnement (minutes)",
+					"radialPoints": "Points / segments radiaux",
+					"pricePerMinute": "Prix par minute",
+					"pricePerMinutePlaceholder": "Prix",
+					"action": {
+						"save": "Sauvegarder les changements",
+						"respawn": "Réapparaître",
+						"delete": "Supprimer définitivement"
+					}
+				},
+				"parkingZone": {
+					"worldpanelEnable": "Activer le worldpanel 3d2d",
+					"worldpanelScale": "Échelle Worldpanel",
+					"worldpanelVerticalOffset": "Décalage vertical Worldpanel",
+					"maxParkingTime": "Max. temps de stationnement (minutes)",
+					"incrementLength": "Longueur d'incrément (minutes)",
+					"incrementFee": "Frais par incrément",
+					"penaltyMultiplier": "Pénalité de frais (multiplicateur)",
+					"action": {
+						"save": "Sauvegarder les changements",
+						"delete": "Supprimer définitivement"
+					}
+				}
+			}
+		},
+		"entities": {
+			"wheelClamp": {
+				"modelText": "FINED",
+				"hoverText": "Amende de stationnement émise !"
+			},
+			"parkingZone": {
+				"popup": {
+					"title": "Zone de stationnement",
+					"maxParkingTime": {
+						"label": "Max. temps de stationnement",
+						"unlimited": "Illimité"
+					},
+					"fee": {
+						"label": "Frais",
+						"feePerMinute": {
+							"singular": ":fee: / :minutes: minute",
+							"plural": ":fee: / :minutes: minutes"
+						},
+						"none": "Aucun"
+					},
+					"timeParked": {
+						"label": "Temps de stationnement"
+					},
+					"feeToPay": {
+						"label": "Frais",
+						"none": "Aucun"
+					}
+				},
+				"worldpanel": {
+					"fee": {
+						"singular": ":fee: / :minutes: minute",
+						"plural": ":fee: / :minutes: minutes"
+					},
+					"time": {
+						"singular": ":minutes: minute",
+						"plural": ":minutes: minutes"
+					},
+					"noTimeLimit": "Pas de limite de temps",
+					"free": "Gratuit"
+				}
+			},
+			"parkingMeter": {
+				"popup": {
+					"title": "Parcmètre",
+					"timeLeft": "Temps restant",
+					"paymentRequired": "Paiement Requis"
+				},
+				"frame": {
+					"title": "Parcmètre",
+					"selectMinutes": "Sélectionnez les minutes",
+					"minutes": "Minutes",
+					"extend": {
+						"singular": "Étendre à :minutes: minute pour :price:",
+						"plural": "Étendre à :minutes: minutes pour :price:"
+					}
+				}
+			}
+		},
+		"fine": {
+			"weaponInfo": {
+				"zone": "Regardez un véhicule dans une zone de stationnement pour vérifier son temps de stationnement actuel",
+				"click": "Faites un clic gauche sur un véhicule pour émettre une amende de stationnement",
+				"overtime": "Au fil du temps"
+			},
+			"create": {
+				"title": "Émettre une amende",
+				"submit": "Émettre une amende"
+			},
+			"view": {
+				"title": "Voir bien",
+				"adminRemove": "Retirer",
+				"timeAgo": "Il y a du temps",
+				"contextMenu": {
+					"copySteamId": "Copié SteamID",
+					"copySteamId64": "Copié SteamID64",
+					"openProfile": "Ouvrir Steam profile"
+				},
+				"pay": "Payer l'amende"
+			}
+		},
+		"outstandingFeeQuery": {
+			"title": "Attention",
+			"text": "Vous êtes tenu de payer vos frais impayés de :money: pour utiliser un parcmètre.",
+			"pay": "Payer les frais"
+		},
+		"violations": {
+			"parkingMeterUnpaidOrOvertime": "Stationnement à un parcmètre sans payer, ou plus longtemps que le temps payé",
+			"parkingZoneOvertime": "Stationnement trop long dans une zone de stationnement",
+			"prohibitedSpace": "Stationnement dans un espace interdit",
+			"doubleParking": "Stationnement double (stationnement multi-places / stationnement parallèle à une voiture déjà garée en bordure de rue)",
+			"privateProperty": "Stationnement sur une propriété privée sans autorisation",
+			"wrongDirection": "Stationnement face au sens de la circulation",
+			"outsideMarkedSquares": "Stationnement en dehors des places balisées",
+			"onSidewalk": "Stationnement sur un trottoir",
+			"tooCloseToIntersection": "Stationnement dans, trop près ou à l'intérieur d'une intersection, d'un passage à niveau ou d'un passage pour piétons"
+		},
+		"notifications": {
+			"fineIssued": "Une amende de stationnement a été émise contre vous.",
+			"finePaid": "Une amende de stationnement émise contre vous a été payée.",
+			"fineForceRemoved": "Une amende de stationnement émise contre vous a été supprimée par un administrateur.",
+			"mustBeOwnerToView": "Vous devez être propriétaire de ce véhicule",
+			"requiresParkedVehicle": "Un véhicule garé est requis !",
+			"mustBeOwnerToPayParkingMeter": "Vous devez être propriétaire du véhicule stationné !",
+			"vehicleHasFine": "L'amende des véhicules stationnés doit être payée en premier !",
+			"paidZoneFees": "Vous payez :money: de frais de zone de stationnement.",
+			"paidPendingFees": "Vous avez payé :money: (frais en attente).",
+			"cantAffordZone": "Vous ne pouvez pas vous permettre de payer les frais de zone, vous devrez les payer la prochaine fois.",
+			"cantAffordPendingFees": "Vous ne pouvez pas vous permettre de payer vos frais en attente, vous devrez les payer la prochaine fois."
+		}
+	}
+}
