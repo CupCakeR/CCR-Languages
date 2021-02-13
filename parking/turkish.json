@@ -1,0 +1,165 @@
+{
+	"info": {
+		"name": "Turkish"
+	},
+	"phrases": {
+		"admin": {
+			"title": "Parking - Yönetimi",
+			"buildMode": {
+				"enable": "Kurulum Modunu Aktif Et",
+				"disable": "Kurulum Modunu Deaktif Et"
+			},
+			"addParkingMeter": "Parkmetre Ekle",
+			"addParkingZone": "Park Alanı Ayarla",
+			"list": {
+				"parkingMeter": "Parkmetre",
+				"parkingZone": "Park Alanı",
+				"notSpawned": "ÇIKARILMIŞ DEĞİL"
+			},
+			"zoneCreation": {
+				"firstPoint": "İlk Noktayı Seç",
+				"secondPoint": "İkinci Noktayı Seç",
+				"confirm": "Onayla",
+				"reset": "Sıfırla",
+				"abort": "İptal Et"
+			},
+			"config": {
+				"parkingMeter": {
+					"horizontal": "Yatay kutu",
+					"distance": "Kutunun Parkmetreye olan uzaklığı",
+					"maxParkingTime": "Maks. park süresi (dakika)",
+					"radialPoints": "Radyal noktalar/segmentler",
+					"pricePerMinute": "Dakika başına ücret",
+					"pricePerMinutePlaceholder": "Ücret",
+					"action": {
+						"save": "Değişiklikleri Kaydet",
+						"respawn": "Yeniden Çıkart",
+						"delete": "Kalıcı Olarak Sil"
+					}
+				},
+				"parkingZone": {
+					"worldpanelEnable": "3d2d dünya panelini aktif et",
+					"worldpanelScale": "Dünya Paneli Boyutu",
+					"worldpanelVerticalOffset": "Dünya paneli dikey ofset",
+					"maxParkingTime": "Maks. park süresi (dakika)",
+					"incrementLength": "Artış uzunluğu (dakika)",
+					"incrementFee": "Her bir artış sonucu ücret",
+					"penaltyMultiplier": "Ücret cezası (çarpan)",
+					"action": {
+						"save": "Değişiklikleri kaydet",
+						"delete": "Kalıcı olarak sil"
+					}
+				}
+			}
+		},
+		"entities": {
+			"wheelClamp": {
+				"modelText": "CEZA KESILDI",
+				"hoverText": "Park Cezası Verildi!"
+			},
+			"parkingZone": {
+				"popup": {
+					"title": "Park alanı",
+					"maxParkingTime": {
+						"label": "Maks. park süresi",
+						"unlimited": "Sınırsız"
+					},
+					"fee": {
+						"label": "Ücret",
+						"feePerMinute": {
+							"singular": ":fee: / :minutes: dakika",
+							"plural": ":fee: / :minutes: dakika"
+						},
+						"none": "Yok"
+					},
+					"timeParked": {
+						"label": "Park süresi"
+					},
+					"feeToPay": {
+						"label": "Ücret",
+						"none": "Yok"
+					}
+				},
+				"worldpanel": {
+					"fee": {
+						"singular": ":fee: / :minutes: dakika",
+						"plural": ":fee: / :minutes: dakika"
+					},
+					"time": {
+						"singular": ":minutes: dakika",
+						"plural": ":minutes: dakika"
+					},
+					"noTimeLimit": "Süre limiti bulunmamakta",
+					"free": "Ücretsiz"
+				}
+			},
+			"parkingMeter": {
+				"popup": {
+					"title": "Parkmetre",
+					"timeLeft": "Kalan süre",
+					"paymentRequired": "Ödeme Gerekmekte"
+				},
+				"frame": {
+					"title": "Parkmetre",
+					"selectMinutes": "Dakika seçiniz",
+					"minutes": "Dakika",
+					"extend": {
+						"singular": ":price: karşılığında süreyi :minutes: dakikaya uzatın",
+						"plural": ":price: karşılığında süreyi :minutes: dakikaya uzatın"
+					}
+				}
+			}
+		},
+		"fine": {
+			"weaponInfo": {
+				"zone": "Park etmiş bir arabaya bakarak ne kadar süredir park etmiş olduğuna bakın",
+				"click": "Park cezası yazmak için farenin sol tuşuna basın",
+				"overtime": "Süre Aşımı"
+			},
+			"create": {
+				"title": "Para Cezası Ver",
+				"submit": "Para Cezası Ver"
+			},
+			"view": {
+				"title": "Ceza Görüntüle",
+				"adminRemove": "Kaldır",
+				"timeAgo": "Süre Önce",
+				"contextMenu": {
+					"copySteamId": "SteamID Kopyala",
+					"copySteamId64": "SteamID64 Kopyala",
+					"openProfile": "Steam Profilini Aç"
+				},
+				"pay": "Cezayı Öde"
+			}
+		},
+		"outstandingFeeQuery": {
+			"title": "Uyarı",
+			"text": "Bir parkmetre kullanmak için :money: olan cezanı ödemek zorundasın.",
+			"pay": "Cezayı Öde"
+		},
+		"violations": {
+			"parkingMeterUnpaidOrOvertime": "Parkmetreye para ödemeden park etmek, veya ödeme süresinin geçmiş olması",
+			"parkingZoneOvertime": "Park alanında çok uzun süre park etmek",
+			"prohibitedSpace": "Yasak bir alana park etmek",
+			"doubleParking": "Çok alanlı park etmek (kaldırıma park etmiş bir arabaya paralel park etmek)",
+			"privateProperty": "Özel bir mülke park etmek",
+			"wrongDirection": "Trafiğe doğru park etmek",
+			"outsideMarkedSquares": "İşaretli alanın dışına park etmek",
+			"onSidewalk": "Kaldırıma park etmek",
+			"tooCloseToIntersection": "Yaya geçidine veya demiryoluna yakın park etmek"
+		},
+		"notifications": {
+			"fineIssued": "Sana karşı bir park cezası yazıldı.",
+			"finePaid": "Sana karşı yazılan bir park cezası ödendi.",
+			"fineForceRemoved": "Sana karşı yazılan bir park cezası admin tarafından kaldırıldı.",
+			"mustBeOwnerToView": "Bu aracın sahibi olmanız gerekmektedir!",
+			"requiresParkedVehicle": "Park edilmiş bir araç olması gerekmekte!",
+			"mustBeOwnerToPayParkingMeter": "Park edilen aracın sahibi olmanız gerekmekte!",
+			"vehicleHasFine": "Park edilmiş araçların' cezası ödenmesi gerekmektedir!",
+			"paidZoneFees": ":money: olan park cezasını ödediniz.",
+			"paidPendingFees": ":money: ödediniz (bekletme ücreti).",
+			"cantAffordZone": "Bölgeyi ödemek için yeterli paraya sahip değilsiniz, sonraki sefere ödemeniz gerekmekte.",
+			"cantAffordPendingFees": "Cezalarınızı ödemek için yeterli paranız bulunmamakta, sonraki sefere ödemeniz gerekmekte."
+		}
+	}
+}
