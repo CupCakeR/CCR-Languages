@@ -105,7 +105,7 @@
 					"minutes": "Dakika",
 					"extend": {
 						"singular": ":price: karşılığında süreyi :minutes: dakikaya uzatın",
-						"plural": ":price: karşılığında süreyi :minutes: dakikaya uzatın""
+						"plural": ":price: karşılığında süreyi :minutes: dakikaya uzatın"
 					}
 				}
 			}
@@ -126,7 +126,7 @@
 				"timeAgo": "Süre Önce",
 				"contextMenu": {
 					"copySteamId": "SteamID Kopyala",
-					"copySteamId64": "SteamID64 Koyala",
+					"copySteamId64": "SteamID64 Kopyala",
 					"openProfile": "Steam Profilini Aç"
 				},
 				"pay": "Cezayı Öde"
