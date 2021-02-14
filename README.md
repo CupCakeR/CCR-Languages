@@ -31,6 +31,13 @@ https://json-diff.com/ - Allows you to easily compare & edit two JSON files onli
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/TEGTainFan>
+            <img src=https://avatars.githubusercontent.com/u/51572413?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=TEGTainFan/>
+            <br />
+            <sub style="font-size:14px"><b>TEGTainFan</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Wolflix>
             <img src=https://avatars.githubusercontent.com/u/68513539?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Wolflix/>
             <br />
