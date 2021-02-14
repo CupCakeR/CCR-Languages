@@ -1,0 +1,165 @@
+{
+	"info": {
+		"name": "Chinese"
+	},
+	"phrases": {
+		"admin": {
+			"title": "停车插件 - 管理面板",
+			"buildMode": {
+				"enable": "启用构建模式",
+				"disable": "停用构建模式"
+			},
+			"addParkingMeter": "增设停车计时器",
+			"addParkingZone": "增设停车场",
+			"list": {
+				"parkingMeter": "停车计时器",
+				"parkingZone": "停车场",
+				"notSpawned": "未生成"
+			},
+			"zoneCreation": {
+				"firstPoint": "选择第一个坐标",
+				"secondPoint": "选择第二个坐标",
+				"confirm": "确定",
+				"reset": "重置",
+				"abort": "关于"
+			},
+			"config": {
+				"parkingMeter": {
+					"horizontal": "水平移动坐标箱",
+					"distance": "坐标箱和停车计时器的水平偏移量",
+					"maxParkingTime": "最长停车时间（分钟）",
+					"radialPoints": "可选择的停车时间/数量",
+					"pricePerMinute": "价格（每分钟）",
+					"pricePerMinutePlaceholder": "价格",
+					"action": {
+						"save": "保存更改",
+						"respawn": "重新生成",
+						"delete": "永久删除"
+					}
+				},
+				"parkingZone": {
+					"worldpanelEnable": "启用3D2D图示",
+					"worldpanelScale": "图示大小",
+					"worldpanelVerticalOffset": "图示垂直移动",
+					"maxParkingTime": "最长停车时间（分钟）",
+					"incrementLength": "隔几分钟收费一次",
+					"incrementFee": "每次收费",
+					"penaltyMultiplier": "超时收费（倍数）",
+					"action": {
+						"save": "保存更改",
+						"delete": "永久删除"
+					}
+				}
+			}
+		},
+		"entities": {
+			"wheelClamp": {
+				"modelText": "罚款",
+				"hoverText": "罚单开出!"
+			},
+			"parkingZone": {
+				"popup": {
+					"title": "停车场",
+					"maxParkingTime": {
+						"label": "最长停车时间",
+						"unlimited": "无时限"
+					},
+					"fee": {
+						"label": "费用",
+						"feePerMinute": {
+							"singular": ":fee: / :minutes:分钟",
+							"plural": ":fee: / :minutes:分钟"
+						},
+						"none": "暂无"
+					},
+					"timeParked": {
+						"label": "停车时间"
+					},
+					"feeToPay": {
+						"label": "费用",
+						"none": "暂无"
+					}
+				},
+				"worldpanel": {
+					"fee": {
+						"singular": ":fee: / :minutes:分钟",
+						"plural": ":fee: / :minutes:分钟"
+					},
+					"time": {
+						"singular": ":minutes:分钟",
+						"plural": ":minutes:分钟"
+					},
+					"noTimeLimit": "无时限",
+					"free": "免费"
+				}
+			},
+			"parkingMeter": {
+				"popup": {
+					"title": "停车计时器",
+					"timeLeft": "剩余时间",
+					"paymentRequired": "需要付款"
+				},
+				"frame": {
+					"title": "停车计时器",
+					"selectMinutes": "选择停车时间",
+					"minutes": "分钟",
+					"extend": {
+						"singular": "延长:minutes:分钟需要:price:",
+						"plural": "E延长:minutes:分钟需要:price:"
+					}
+				}
+			}
+		},
+		"fine": {
+			"weaponInfo": {
+				"zone": "在停车区查看车辆和当前停车时间。",
+				"click": "左键点击车辆，即可开出罚单",
+				"overtime": "超时"
+			},
+			"create": {
+				"title": "开一张罚单",
+				"submit": "发出罚单"
+			},
+			"view": {
+				"title": "详细罚单",
+				"adminRemove": "撤销",
+				"timeAgo": "罚单时间",
+				"contextMenu": {
+					"copySteamId": "复制steamID",
+					"copySteamId64": "复制steam64ID",
+					"openProfile": "打开个人资料"
+				},
+				"pay": "支付罚款"
+			}
+		},
+		"outstandingFeeQuery": {
+			"title": "警告",
+			"text": "你必须支付之前欠下的:money:元才能再次使用停车计时器。",
+			"pay": "支付费用"
+		},
+		"violations": {
+			"parkingMeterUnpaidOrOvertime": "在停车收费站停车不付款，或停车时间超过了付款额",
+			"parkingZoneOvertime": "在停车区停车时间过长",
+			"prohibitedSpace": "在禁止停车的地方停车",
+			"doubleParking": "双重泊车（多车位泊车/与已停在路边的车平行泊车）",
+			"privateProperty": "未经许可在私人财产上停车",
+			"wrongDirection": "在逆行方向停车",
+			"outsideMarkedSquares": "在标记的停车场外停车",
+			"onSidewalk": "在人行道上停车",
+			"tooCloseToIntersection": "太靠近或在十字路口、铁路交叉口或人行横道上停车"
+		},
+		"notifications": {
+			"fineIssued": "你收到了一张车辆罚单。",
+			"finePaid": "你支付了车辆罚单。",
+			"fineForceRemoved": "对你开出的车辆罚单已被管理员撤销。",
+			"mustBeOwnerToView": "你必须是这辆车的所有者！",
+			"requiresParkedVehicle": "需要有车辆停放！",
+			"mustBeOwnerToPayParkingMeter": "你必须是停放车辆的所有者！",
+			"vehicleHasFine": "需要先交纳车辆的罚款！",
+			"paidZoneFees": "你支付了:money:元停车费。",
+			"paidPendingFees": "你支付了:money:元(待定费用)。",
+			"cantAffordZone": "你交不起停车费，下次停车时必须付款。",
+			"cantAffordPendingFees": "你交不起停车费，下次必须缴纳。"
+		}
+	}
+}
