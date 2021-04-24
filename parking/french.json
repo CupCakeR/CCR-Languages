@@ -146,7 +146,7 @@
 			"wrongDirection": "Stationnement face au sens de la circulation",
 			"outsideMarkedSquares": "Stationnement en dehors des places balisées",
 			"onSidewalk": "Stationnement sur un trottoir",
-			"tooCloseToIntersection": "Stationnement dans, trop près ou à l'intérieur d'une intersection, d'un passage à niveau ou d'un passage pour piétons"
+			"tooCloseToIntersection": "Stationnement trop près ou à l'intérieur d'une intersection, d'un passage à niveau ou d'un passage pour piétons"
 		},
 		"notifications": {
 			"fineIssued": "Une amende de stationnement a été émise contre vous.",
