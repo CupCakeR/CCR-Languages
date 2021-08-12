@@ -68,6 +68,13 @@ https://json-diff.com/ - Allows you to easily compare & edit two JSON files onli
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/TheOnly8Z>
+            <img src=https://avatars.githubusercontent.com/u/13565172?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=TheOnly8Z/>
+            <br />
+            <sub style="font-size:14px"><b>TheOnly8Z</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ThedarkZz>
             <img src=https://avatars.githubusercontent.com/u/65184200?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ThedarkZz/>
             <br />
