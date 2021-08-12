@@ -1,0 +1,425 @@
+{
+	"info": {
+		"name": "简体中文"
+	},
+	"phrases": {
+		"interface": {
+			"tabs": {
+				"missions": {
+					"name": "任务",
+					"stats": {
+						"accomplished": "总完成数",
+						"discarded": "总放弃数",
+						"rewarded": "收到奖励",
+						"nextRoll": "下次刷新"
+					},
+					"card": {
+						"contextMenu": {
+							"watch": "关注任务",
+							"unwatch": "取消关注任务",
+							"discard": "放弃任务"
+						},
+						"statusTypes": {
+							"accomplished": "完成",
+							"discarded": "放弃",
+							"system": "系统移除"
+						},
+						"missed": "错过"
+					}
+				},
+				"leaderboard": {
+					"name": "排行榜",
+					"stats": {
+						"accomplished": "总完成数",
+						"discarded": "总放弃数",
+						"rewarded": "总奖励量"
+					},
+					"selection": {
+						"accomplished": "完成",
+						"discarded": "放弃",
+						"rewarded": "奖励"
+					},
+					"player": {
+						"contextMenu": {
+							"copyName": "复制用户名",
+							"copySteamID": "复制 SteamID",
+							"copySteamID64": "复制 SteamID64",
+							"openProfile": "打开个人页面"
+						},
+						"value": {
+							"singular": ":count: 个任务",
+							"plural": ":count: 个任务"
+						}
+					}
+				},
+				"settings": {
+					"name": "设置",
+					"options": {
+						"enableMissionWatching": "启用关注任务功能",
+						"autoWatchNewMissions": "自动关注新任务",
+						"onlyShowWhileHoldingTab": "按住 TAB 时才显示菜单",
+						"panelX": "菜单 X 位置",
+						"panelY": "菜单 Y 位置",
+						"enablePopup": "启用 \"任务完成\" 弹出框",
+						"popupStaytime": "弹出框时间 (秒)"
+					}
+				}
+			},
+			"endReached": "没有更多了",
+			"noData": "无数据，请晚些再来"
+		},
+		"chatMessages": {
+			"active": {
+				"singular": "你有 :value: 个任务，用 :cmd: 查看。",
+				"plural": "你有 :value: 个任务，用 :cmd: 查看。"
+			},
+			"newRoll": "任务刷新了！",
+			"newMission": "你获得了一个新任务，用 :cmd: 查看。"
+		},
+		"defaultMissions": {
+			"all": {
+				"kill": {
+					"desc": "杀死 :value:。",
+					"format": {
+						"singular": ":value: 个玩家",
+						"plural": ":value: 个玩家"
+					}
+				},
+				"damage": {
+					"desc": "造成 :value: 伤害。",
+					"format": {
+						"singular": ":value: HP",
+						"plural": ":value: HP"
+					}
+				},
+				"travel": {
+					"desc": "移动 :value:。",
+					"format": {
+						"singular": ":value: 米",
+						"plural": ":value: 米"
+					}
+				},
+				"timeAlive": {
+					"desc": "存活 :value:。",
+					"format": {
+						"singular": ":value: 分钟",
+						"plural": ":value: 分钟"
+					}
+				}
+			},
+			"basewars": {
+				"buyDrug": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 个毒品",
+						"plural": ":value: 个毒品"
+					}
+				},
+				"buyEntity": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 个实体",
+						"plural": ":value: 个实体"
+					}
+				},
+				"buyGun": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 把枪",
+						"plural": ":value: 把枪"
+					}
+				},
+				"buyProp": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 个物体",
+						"plural": ":value: 个物体"
+					}
+				},
+				"endRaid": {
+					"desc": "完成 :value:。",
+					"format": {
+						"singular": ":value: 次袭击",
+						"plural": ":value: 次袭击"
+					}
+				}
+			},
+			"sandbox": {
+				"spawnProp": {
+					"desc": "刷出 :value:。",
+					"format": {
+						"singular": ":value: 个物体",
+						"plural": ":value: 个物体"
+					}
+				}
+			},
+			"ttt": {
+				"dna": {
+					"desc": "找到 :value: 的 DNA 样本。",
+					"format": {
+						"singular": ":value: 个玩家",
+						"plural": ":value: 个玩家"
+					}
+				},
+				"equipment": {
+					"desc": "从身份商店购买 :value: 。",
+					"format": {
+						"singular": ":value: 个道具",
+						"plural": ":value: 个道具"
+					}
+				},
+				"identify": {
+					"desc": "识别 :value:。",
+					"format": {
+						"singular": ":value: 个尸体",
+						"plural": ":value: 个尸体"
+					}
+				},
+				"karma": {
+					"desc": "不失去人品的情况下玩 :value:。",
+					"format": {
+						"singular": ":value: 局",
+						"plural": ":value: 局"
+					}
+				},
+				"kill_positive": {
+					"desc": "杀死 :value:。",
+					"format": {
+						"singular": ":value: 个敌人",
+						"plural": ":value: 个敌人"
+					}
+				},
+				"win": {
+					"desc": "获得胜利 :value:。",
+					"format": {
+						"singular": ":value: 次",
+						"plural": ":value: 次"
+					}
+				}
+			},
+			"darkrp": {
+				"buyAmmo": {
+					"desc": "购买弹药 :value:。",
+					"format": {
+						"singular": ":value: 次",
+						"plural": ":value: 次"
+					}
+				},
+				"buyDoor": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 个门",
+						"plural": ":value: 个门"
+					}
+				},
+				"buyEntity": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 个实体",
+						"plural": ":value: 个实体"
+					}
+				},
+				"buyShipment": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 个道具箱",
+						"plural": ":value: 个道具箱"
+					}
+				},
+				"buyWeapon": {
+					"desc": "购买 :value:。",
+					"format": {
+						"singular": ":value: 个道具",
+						"plural": ":value: 个道具"
+					}
+				},
+				"lockpick": {
+					"desc": "撬锁 :value:。",
+					"format": {
+						"singular": ":value: 次",
+						"plural": ":value: 次"
+					}
+				},
+				"changeJob": {
+					"desc": "更换职业 :value:。",
+					"format": {
+						"singular": ":value: 次",
+						"plural": ":value: 次"
+					}
+				},
+				"arrest": {
+					"desc": "逮捕 :value:。",
+					"format": {
+						"singular": ":value: 个玩家",
+						"plural": ":value: 个玩家"
+					}
+				},
+				"salary": {
+					"desc": "获得 :value:。",
+					"format": {
+						"singular": ":value: 工资",
+						"plural": ":value: 工资"
+					}
+				}
+			},
+			"addons": {
+				"emotes": {
+					"normal": {
+						"desc": "使用普通表情 :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					},
+					"hologram": {
+						"desc": "使用全息表情 :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					}
+				},
+				"jcrafting": {
+					"craft": {
+						"desc": "合成 :value:。",
+						"format": {
+							"singular": ":value: item",
+							"plural": ":value: items"
+						}
+					}
+				},
+				"lean": {
+					"sell": {
+						"desc": "出售 lean :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					},
+					"drink": {
+						"desc": "喝 :value: lean。",
+						"format": {
+							"singular": ":value: cup",
+							"plural": ":value: cups"
+						}
+					}
+				},
+				"xenin_care_package": {
+					"flare": {
+						"desc": "丢出 :value:。",
+						"format": {
+							"singular": ":value: 个信号",
+							"plural": ":value: 个信号"
+						}
+					},
+					"loot": {
+						"desc": "搜刮 :value:。",
+						"format": {
+							"singular": ":value: 个空投",
+							"plural": ":value: 个空投"
+						}
+					},
+					"open": {
+						"desc": "打开 :value:。",
+						"format": {
+							"singular": ":value: 个空投",
+							"plural": ":value: 个空投"
+						}
+					}
+				},
+				"xenin_coinflip": {
+					"play": {
+						"desc": "玩投硬币 :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					},
+					"win": {
+						"desc": "Win a coinflip :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					}
+				},
+				"zero_genlab": {
+					"infect": {
+						"desc": "被感染 :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					},
+					"cure": {
+						"desc": "被治愈感染 :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					}
+				},
+				"mcphone": {
+					"callStart": {
+						"desc": "打电话 :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					},
+					"callAnswer": {
+						"desc": "接电话 :value:。",
+						"format": {
+							"singular": ":value: 次",
+							"plural": ":value: 次"
+						}
+					},
+					"smsSend": {
+						"desc": "发送 :value:。",
+						"format": {
+							"singular": ":value: 个短信",
+							"plural": ":value: 个短信"
+						}
+					},
+					"smsReceive": {
+						"desc": "接受 :value:。",
+						"format": {
+							"singular": ":value: 个短信",
+							"plural": ":value: 个短信"
+						}
+					},
+					"mailSend": {
+						"desc": "发送 :value:。",
+						"format": {
+							"singular": ":value: 封邮件",
+							"plural": ":value: 封邮件"
+						}
+					}
+				},
+				"glorified_banking": {
+					"withdraw": {
+						"desc": "从银行取出 :value:。",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"deposit": {
+						"desc": "向银行存入 :value:。",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					},
+					"transfer": {
+						"desc": "给别人转账 :value:。",
+						"format": {
+							"singular": "$:value:",
+							"plural": "$:value:"
+						}
+					}
+				}
+			}
+		}
+	}
+}
