@@ -112,7 +112,7 @@
 		},
 		"fine": {
 			"weaponInfo": {
-				"zone": "Mira a un vehículo en una zona de estacionamiento para checkear su tiempo de estacionamiento actual",
+				"zone": "Mira a un vehículo en una zona de estacionamiento para revisar su tiempo de estacionamiento actual",
 				"click": "Click izquierdo en un vehículo para establecer una multa de estacionamiento",
 				"overtime": "Tiempo sobrepasado"
 			},
@@ -140,7 +140,7 @@
 		"violations": {
 			"parkingMeterUnpaidOrOvertime": "Estacionar en un parquímetro sin pagar, o por un tiempo superior al pagado",
 			"parkingZoneOvertime": "Estacionar demasiado tiempo en una zona de estacionamiento",
-			"prohibitedSpace": "Estacionar un una zona prohibida",
+			"prohibitedSpace": "Estacionar en una zona prohibida",
 			"doubleParking": "Doble fila (estacionar de forma paralela a un auto ya estacionado)",
 			"privateProperty": "Estacionar en una propiedad privada sin consentimiento",
 			"wrongDirection": "Estacionar en dirección contraria a la dirección del tráfico",
