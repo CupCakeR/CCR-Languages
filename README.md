@@ -75,10 +75,10 @@ https://json-diff.com/ - Allows you to easily compare & edit two JSON files onli
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/ThedarkZz>
-            <img src=https://avatars.githubusercontent.com/u/65184200?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ThedarkZz/>
+        <a href=https://github.com/acabidasales>
+            <img src=https://avatars.githubusercontent.com/u/65184200?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Antoni Cabida/>
             <br />
-            <sub style="font-size:14px"><b>ThedarkZz</b></sub>
+            <sub style="font-size:14px"><b>Antoni Cabida</b></sub>
         </a>
     </td>
 </tr>
