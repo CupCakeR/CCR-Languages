@@ -1,0 +1,165 @@
+{
+	"info": {
+		"name": "korean"
+	},
+	"phrases": {
+		"admin": {
+			"title": "주차 - Admin(관리자)",
+			"buildMode": {
+				"enable": "빌드 모드 활성화",
+				"disable": "빌드 모드 비활성화"
+			},
+			"addParkingMeter": "주차 미터기 추가",
+			"addParkingZone": "주차 구역 추가",
+			"list": {
+				"parkingMeter": "주차 미터기",
+				"parkingZone": "주차 구역",
+				"notSpawned": "생성 안됨"
+			},
+			"zoneCreation": {
+				"firstPoint": "첫번째 지점 선택",
+				"secondPoint": "두번째 지점 선택",
+				"confirm": "확인",
+				"reset": "재설정",
+				"abort": "중단"
+			},
+			"config": {
+				"parkingMeter": {
+					"horizontal": "수평 박스",
+					"distance": "주차 미터기부터 박스 오프셋",
+					"maxParkingTime": "최대 주차 시간 (분)",
+					"radialPoints": "반지름 지점/영역",
+					"pricePerMinute": "분당 가격",
+					"pricePerMinutePlaceholder": "가격",
+					"action": {
+						"save": "변경사항 저장",
+						"respawn": "재생성",
+						"delete": "영구 삭제"
+					}
+				},
+				"parkingZone": {
+					"worldpanelEnable": "3d2d 월드UI창 활성화",
+					"worldpanelScale": "월드UI창 크기",
+					"worldpanelVerticalOffset": "월드UI창 수직 거리",
+					"maxParkingTime": "최대 주차 시간 (분)",
+					"incrementLength": "인상 시간 (분)",
+					"incrementFee": "증분당 요금",
+					"penaltyMultiplier": "요금 위약금 (제곱)",
+					"action": {
+						"save": "변경사항 저장",
+						"delete": "영구 삭제"
+					}
+				}
+			}
+		},
+		"entities": {
+			"wheelClamp": {
+				"modelText": "요금",
+				"hoverText": "주차 과태료 부과"
+			},
+			"parkingZone": {
+				"popup": {
+					"title": "주차 구역",
+					"maxParkingTime": {
+						"label": "최대 주차 시간",
+						"unlimited": "무제한"
+					},
+					"fee": {
+						"label": "요금",
+						"feePerMinute": {
+							"singular": ":fee: / :minutes: 분",
+							"plural": ":fee: / :minutes: 분"
+						},
+						"none": "없음"
+					},
+					"timeParked": {
+						"label": "주차 시간"
+					},
+					"feeToPay": {
+						"label": "요금",
+						"none": "없음"
+					}
+				},
+				"worldpanel": {
+					"fee": {
+						"singular": ":fee: / :minutes: 분",
+						"plural": ":fee: / :minutes: 분"
+					},
+					"time": {
+						"singular": ":minutes:분",
+						"plural": ":minutes:분"
+					},
+					"noTimeLimit": "시간 제한 없음",
+					"free": "무료"
+				}
+			},
+			"parkingMeter": {
+				"popup": {
+					"title": "주차 미터기",
+					"timeLeft": "시간 남았습니다",
+					"paymentRequired": ""
+				},
+				"frame": {
+					"title": "주차 미터기",
+					"selectMinutes": "분 선택",
+					"minutes": "분",
+					"extend": {
+						"singular": ":minutes:분 연장 요금 :price:",
+						"plural": ":minutes:분 연장 요금 :price:"
+					}
+				}
+			}
+		},
+		"fine": {
+			"weaponInfo": {
+				"zone": "주차 구역에 주차된 차량을 확인후 현재 주차시간을 확인하세요",
+				"click": "주차 위반 과태료를 부과하려면 차량을 좌클릭 하세요",
+				"overtime": "시간 초과"
+			},
+			"create": {
+				"title": "과태료 부과",
+				"submit": "과태료 부과"
+			},
+			"view": {
+				"title": "과태료 표시",
+				"adminRemove": "제거",
+				"timeAgo": "오래전",
+				"contextMenu": {
+					"copySteamId": "SteamID 복사",
+					"copySteamId64": "SteamID64 복사",
+					"openProfile": "steam 프로필 열기"
+				},
+				"pay": "과태료 납부"
+			}
+		},
+		"outstandingFeeQuery": {
+			"title": "경고",
+			"text": "미납요금 :money: 을 납부를 하셔야 이용이 가능합니다.",
+			"pay": "요금 납부"
+		},
+		"violations": {
+			"parkingMeterUnpaidOrOvertime": "주차 미터기에 요금을 지불하지 않거나, 지불한 시간보다 오래 주차를 했습니다.",
+			"parkingZoneOvertime": "너무 오랫동안 주차 구역에서 주차",
+			"prohibitedSpace": "금지 구역내 주차",
+			"doubleParking": "이중 주차 (다중 주차 공간에 주차 / 도로 연석에 주차된 차량과 평행 주차 )",
+			"privateProperty": "사유지에 무단 주차",
+			"wrongDirection": "차량 진행 방향의 반대 방향으로 주차",
+			"outsideMarkedSquares": "주차 구역 외부에 주차",
+			"onSidewalk": "인도에 주차",
+			"tooCloseToIntersection": "교차로, 철도(건널목), 횡단보도에 주차 또는 교차로, 철도, 횡단보도 인근에 주차"
+		},
+		"notifications": {
+			"fineIssued": "주차 위반 과태료가 부과 되었습니다.",
+			"finePaid": "주차 위반 과태료가 납부 되었습니다.",
+			"fineForceRemoved": "관리자에 의해 발급된 주차 위반 과태료가 제거되었습니다.",
+			"mustBeOwnerToView": "차량의 소유자이여야 합니다!",
+			"requiresParkedVehicle": "주차된 차량이 필요합니다!",
+			"mustBeOwnerToPayParkingMeter": "주차된 차량의 소유자이여야 합니다!",
+			"vehicleHasFine": "주차된 차량의 주차 위반 과태료를 먼저 납부를 하셔야 됩니다!",
+			"paidZoneFees": ":money:의 주차 요금을 지불 하셨습니다.",
+			"paidPendingFees": "미납 요금 :money:을 지불 하셨습니다.",
+			"cantAffordZone": "주차 구역 요금을 지불할 돈이 부족하거나 없습니다, 다음에 다시 지불하세요.",
+			"cantAffordPendingFees": "미납 요금을 지불할 돈이 부족하거나 없습니다, 다음에 다시 지불하세요."
+		}
+	}
+}
